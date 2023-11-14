@@ -1,0 +1,871 @@
+.header {
+    color: rgb(11, 11, 11);
+    text-align: center;
+    font-size: 6vh;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 3%;
+    text-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.716); /* Text shadow for depth */
+    backdrop-filter: blur(5px); /* Background blur for cinematic effect */
+
+  }
+  .aboutFabrik{
+ text-align: right;
+    margin-top:1%;
+margin-right:5%;
+font-size: 4.5vh;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 2%;
+
+  }
+.strips{
+    padding:1vh 2vh;
+    background-color: rgba(54, 37, 37, 0.51);
+margin-top:5%;
+margin-bottom:10%;
+background: repeating-linear-gradient(-45deg, black, black 2vh, white 2vh, white 5vh);
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);  
+}
+.stripsTop{
+  padding:1vh 2vh;
+  background-color: rgba(54, 37, 37, 0.51);
+margin-top:5%;
+
+background: repeating-linear-gradient(-45deg, black, black 2vh, white 2vh, white 5vh);
+box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);  
+}
+  .container{
+box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw black;
+    background: linear-gradient(to right, #c2c2c2, #f2f2f2);
+    padding-bottom: 2%;
+  }
+  
+  .sectionContainer{
+display: flex;
+flex-direction: column;
+width:60vh;
+margin-left: auto;
+margin-right: 5%;
+margin-top: 7%;
+padding:5vh;
+background-color:  rgb(10, 6, 6);
+color: rgb(255, 255, 255);
+font-size: 2.8vh;
+text-align: right;
+font-weight: lighter;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+border-radius: 0.5vh;
+  }
+  .topSection{
+    width:62vh;
+    margin-top: 5%;
+    margin-right:7.9%;
+margin-left: auto;
+    padding:1.5vh 3vh;
+    background-color: rgba(54, 37, 37, 0.51);
+    transform: rotate(-25deg);
+    background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+  }
+  .aboutFabrik{
+    text-align: right;
+       margin-top:1%;
+   margin-right:5%;
+   font-size: 4.5vh;
+   font-weight: lighter;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 2%;
+   
+     }
+     .topSection2{
+        width:62vh;
+        margin-top: 5%;
+        margin-left:7.9%;
+    margin-right: auto;
+        padding:1.5vh 3vh;
+        background-color: rgba(54, 37, 37, 0.51);
+        transform: rotate(25deg);
+        background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+        box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+      }
+      .sectionContainer2{
+        display: flex;
+        flex-direction: column;
+        width:60vh;
+        margin-right: auto;
+        margin-left: 5%;
+        margin-top: 7%;
+        padding:5vh;
+        background-color:  rgb(10, 6, 6);
+        color: rgb(255, 255, 255);
+        font-size: 2.8vh;
+        text-align: right;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+        border-radius: 0.5vh;
+          }
+                .button{
+                  display: flex;
+                  justify-content: center;
+                  cursor: pointer;
+                  background:rgb(203, 202, 180);
+                  font-size: 1.5vw;
+                  font-family: Calibri;
+                  border:2px solid#ffffff;
+                  padding:1vw 6vw;
+                  border-radius: 5%;
+                }
+.aboutFabrik2{
+text-align: right;
+margin-top:1%;
+margin-right:5%;
+font-size: 4.5vh;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 2%;          
+}
+.video{
+margin-left: 8%;
+margin-top:7%;
+width:15%;
+border-radius: 10% ;
+height: max-content;
+
+}
+.video2{
+    margin-right: 8%;
+    margin-top:7%;
+    width:15%;
+    border-radius: 10%;
+  
+    }
+.row{
+display: flex;
+flex-direction: row;
+}
+@media only screen and (min-width: 220px) and (max-width:415px) {
+  .header {
+    color: rgb(11, 11, 11);
+    text-align: center;
+    font-size: 8vw;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 3%;
+    text-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.716); /* Text shadow for depth */
+    backdrop-filter: blur(5px); /* Background blur for cinematic effect */
+
+  }
+  .aboutFabrik{
+ text-align: right;
+    margin-top:1%;
+margin-right:5%;
+font-size: 4.5vw;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 5%;
+
+  }
+.strips{
+    padding:2vw 4vw;
+    background-color: rgba(54, 37, 37, 0.51);
+margin-top:5%;
+margin-bottom:20%;
+background: repeating-linear-gradient(-45deg, black, black 2vh, white 2vh, white 5vh);
+  box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);  
+}
+  .container{
+box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw black;
+    background: linear-gradient(to right, #c2c2c2, #f2f2f2);
+    padding-bottom: 2%;
+  }
+  
+  .sectionContainer{
+display: flex;
+flex-direction: column;
+width:50vw;
+height:100%;
+margin-left: auto;
+margin-right: 5%;
+margin-top: 12%;
+padding:5vw;
+background-color:  rgb(10, 6, 6);
+color: rgb(255, 255, 255);
+font-size: 3vw;
+text-align: right;
+font-weight: lighter;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+border-radius: 0.5vh;
+  }
+  .topSection{
+    width:50vw;
+    margin-top: 5%;
+    margin-right:11%;
+margin-left: auto;
+    padding:2vw 4vw;
+    background-color: rgba(54, 37, 37, 0.51);
+    transform: rotate(-25deg);
+    background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+  }
+  .aboutFabrik{
+    text-align: right;
+       margin-top:1%;
+   margin-right:5%;
+   font-size: 6vw;
+   font-weight: lighter;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 2%;
+   
+     }
+     .topSection2{
+        width:50vw;
+        margin-top: 5%;
+        margin-left:10%;
+    margin-right: auto;
+        padding:2vw 4vw;
+        background-color: rgba(54, 37, 37, 0.51);
+        transform: rotate(25deg);
+        background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+        box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+      }
+      .sectionContainer2{
+        display: flex;
+        flex-direction: column;
+        width:50vw;
+        height:100%;
+        margin-right: auto;
+        margin-left: 5%;
+        margin-top: 12%;
+        padding:5vw;
+        background-color:  rgb(10, 6, 6);
+        color: rgb(255, 255, 255);
+        font-size: 3vw;
+        text-align: right;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+        border-radius: 0.5vh;
+          }
+.button{
+display: flex;
+justify-content: center;
+cursor: pointer;
+background:rgb(203, 202, 180);
+font-size: 4vw;
+font-family: Calibri;
+border:2px solid#ffffff;
+padding:2vw 8vw;
+border-radius: 5%;
+}
+
+.aboutFabrik2{
+text-align: right;
+margin-top:1%;
+margin-right:5%;
+font-size: 6vw;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 2%;          
+}
+.video{
+margin-left: 3%;
+margin-top:12%;
+height: max-content;
+width: 30%;
+border-radius: 5vw;
+
+}
+.video2{
+    margin-right: 3%;
+    margin-top:12%;
+    height: max-content;
+    width:30%;
+    border-radius: 10%;
+  
+    }
+.row{
+display: flex;
+flex-direction: row;
+}
+
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+  .header {
+    color: rgb(11, 11, 11);
+    text-align: center;
+    font-size: 8vw;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 3%;
+    text-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.716); /* Text shadow for depth */
+    backdrop-filter: blur(5px); /* Background blur for cinematic effect */
+
+  }
+  .aboutFabrik{
+ text-align: right;
+    margin-top:1%;
+margin-right:5%;
+font-size: 4.5vw;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 5%;
+
+  }
+.strips{
+    padding:1.5vw 3vw;
+    background-color: rgba(54, 37, 37, 0.51);
+margin-top:5%;
+margin-bottom:15%;
+background: repeating-linear-gradient(-45deg, black, black 2vh, white 2vh, white 5vh);
+  box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);  
+}
+  .container{
+box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw black;
+    background: linear-gradient(to right, #c2c2c2, #f2f2f2);
+    padding-bottom: 2%;
+  }
+  
+  .sectionContainer{
+display: flex;
+flex-direction: column;
+width:45vw;
+height:100%;
+margin-left: auto;
+margin-right: 5%;
+margin-top: 11%;
+padding:5vw;
+background-color:  rgb(10, 6, 6);
+color: rgb(255, 255, 255);
+font-size: 2.5vw;
+text-align: right;
+font-weight: lighter;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+border-radius: 0.5vh;
+  }
+  .topSection{
+    width:45vw;
+    margin-top: 5%;
+    margin-right:12%;
+margin-left: auto;
+    padding:1.5vw 3vw;
+    background-color: rgba(54, 37, 37, 0.51);
+    transform: rotate(-25deg);
+    background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+  }
+  .aboutFabrik{
+    text-align: right;
+       margin-top:1%;
+   margin-right:5%;
+   font-size: 4.5vw;
+   font-weight: lighter;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 2%;
+   
+     }
+     .topSection2{
+        width:45vw;
+        margin-top: 10%;
+        margin-left:12%;
+    margin-right: auto;
+        padding:1.5vw 3vw;
+        background-color: rgba(54, 37, 37, 0.51);
+        transform: rotate(25deg);
+        background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+        box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+      }
+      .sectionContainer2{
+        display: flex;
+        flex-direction: column;
+        width:45vw;
+        height:100%;
+        margin-right: auto;
+        margin-left: 5%;
+        margin-top: 10.5%;
+        padding:5vw;
+        background-color:  rgb(10, 6, 6);
+        color: rgb(255, 255, 255);
+        font-size: 2.5vw;
+        text-align: right;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+        border-radius: 0.5vh;
+          }
+.button{
+display: flex;
+justify-content: center;
+cursor: pointer;
+background:rgb(203, 202, 180);
+font-size: 3vw;
+font-family: Calibri;
+border:2px solid#ffffff;
+padding:2vw 6vw;
+border-radius: 5%;
+}
+
+.aboutFabrik2{
+text-align: right;
+margin-top:1%;
+margin-right:5%;
+font-size: 4.5vw;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 2%;          
+}
+.video{
+margin-left: 3%;
+margin-top:12%;
+height: max-content;
+width: 30%;
+border-radius: 5vw;
+
+}
+.video2{
+    margin-right: 3%;
+    margin-top:12%;
+    height: max-content;
+    width:30%;
+    border-radius: 10%;
+  
+    }
+.row{
+display: flex;
+flex-direction: row;
+}
+}
+
+@media only screen and (min-width: 720px) and (max-width:850px) {
+  .header {
+    color: rgb(11, 11, 11);
+    text-align: center;
+    font-size: 5.5vw;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 3%;
+    text-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.716); /* Text shadow for depth */
+    backdrop-filter: blur(5px); /* Background blur for cinematic effect */
+
+  }
+  .aboutFabrik{
+ text-align: right;
+    margin-top:1%;
+margin-right:5%;
+font-size: 4.5vw;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 5%;
+
+  }
+.strips{
+    padding:1.5vw 3vw;
+    background-color: rgba(54, 37, 37, 0.51);
+margin-top:5%;
+margin-bottom:15%;
+background: repeating-linear-gradient(-45deg, black, black 2vh, white 2vh, white 5vh);
+  box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);  
+}
+  .container{
+box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw black;
+    background: linear-gradient(to right, #c2c2c2, #f2f2f2);
+    padding-bottom: 2%;
+  }
+  
+  .sectionContainer{
+display: flex;
+flex-direction: column;
+width:45vw;
+height:100%;
+margin-left: auto;
+margin-right: 5%;
+margin-top: 11%;
+padding:5vw;
+background-color:  rgb(10, 6, 6);
+color: rgb(255, 255, 255);
+font-size: 2.5vw;
+text-align: right;
+font-weight: lighter;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+border-radius: 0.5vh;
+  }
+  .topSection{
+    width:45vw;
+    margin-top: 5%;
+    margin-right:12%;
+margin-left: auto;
+    padding:1.5vw 3vw;
+    background-color: rgba(54, 37, 37, 0.51);
+    transform: rotate(-25deg);
+    background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+  }
+  .aboutFabrik{
+    text-align: right;
+       margin-top:1%;
+   margin-right:5%;
+   font-size: 4.5vw;
+   font-weight: lighter;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 2%;
+   
+     }
+     .topSection2{
+        width:45vw;
+        margin-top: 10%;
+        margin-left:12%;
+    margin-right: auto;
+        padding:1.5vw 3vw;
+        background-color: rgba(54, 37, 37, 0.51);
+        transform: rotate(25deg);
+        background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+        box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+      }
+      .sectionContainer2{
+        display: flex;
+        flex-direction: column;
+        width:45vw;
+        height:100%;
+        margin-right: auto;
+        margin-left: 5%;
+        margin-top: 10.5%;
+        padding:5vw;
+        background-color:  rgb(10, 6, 6);
+        color: rgb(255, 255, 255);
+        font-size: 2.5vw;
+        text-align: right;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+        border-radius: 0.5vh;
+          }
+.button{
+display: flex;
+justify-content: center;
+cursor: pointer;
+background:rgb(203, 202, 180);
+font-size: 3vw;
+font-family: Calibri;
+border:2px solid#ffffff;
+padding:2vw 6vw;
+border-radius: 5%;
+}
+
+.aboutFabrik2{
+text-align: right;
+margin-top:1%;
+margin-right:5%;
+font-size: 4.5vw;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 2%;          
+}
+.video{
+margin-left: 3%;
+margin-top:12%;
+height: max-content;
+width: 30%;
+border-radius: 5vw;
+
+}
+.video2{
+    margin-right: 3%;
+    margin-top:12%;
+    height: max-content;
+    width:30%;
+    border-radius: 10%;
+  
+    }
+.row{
+display: flex;
+flex-direction: row;
+}
+}
+@media only screen and (min-width: 850px) and (max-width:1020px) {
+  .header {
+    color: rgb(11, 11, 11);
+    text-align: center;
+    font-size: 4.5vw;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 3%;
+    text-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.716); /* Text shadow for depth */
+    backdrop-filter: blur(5px); /* Background blur for cinematic effect */
+
+  }
+  .aboutFabrik{
+ text-align: right;
+    margin-top:1%;
+margin-right:5%;
+font-size: 3vw;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 5%;
+
+  }
+.strips{
+    padding:1vw 2vw;
+    background-color: rgba(54, 37, 37, 0.51);
+margin-top:5%;
+margin-bottom:15%;
+background: repeating-linear-gradient(-45deg, black, black 2vh, white 2vh, white 5vh);
+  box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);  
+}
+  .container{
+box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw black;
+    background: linear-gradient(to right, #c2c2c2, #f2f2f2);
+    padding-bottom: 2%;
+  }
+  
+  .sectionContainer{
+display: flex;
+flex-direction: column;
+width:35vw;
+height:100%;
+margin-left: auto;
+margin-right: 3%;
+margin-top: 8%;
+padding:5vw;
+background-color:  rgb(10, 6, 6);
+color: rgb(255, 255, 255);
+font-size: 2vw;
+text-align: right;
+font-weight: lighter;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+border-radius: 0.5vh;
+  }
+  .topSection{
+    width:35vw;
+    margin-top: 5%;
+    margin-right:11%;
+margin-left: auto;
+    padding:1vw 2vw;
+    background-color: rgba(54, 37, 37, 0.51);
+    transform: rotate(-25deg);
+    background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+  }
+  .aboutFabrik{
+    text-align: right;
+       margin-top:1%;
+   margin-right:5%;
+   font-size: 4vw;
+   font-weight: lighter;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 2%;
+   
+     }
+     .topSection2{
+        width:35vw;
+        margin-top: 10%;
+        margin-left:12.5%;
+    margin-right: auto;
+        padding:1vw 2vw;
+        background-color: rgba(54, 37, 37, 0.51);
+        transform: rotate(25deg);
+        background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+        box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+      }
+      .sectionContainer2{
+        display: flex;
+        flex-direction: column;
+        width:35vw;
+        height:100%;
+        margin-right: auto;
+        margin-left: 5%;
+        margin-top: 8%;
+        padding:5vw;
+        background-color:  rgb(10, 6, 6);
+        color: rgb(255, 255, 255);
+        font-size: 2vw;
+        text-align: right;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+        border-radius: 0.5vh;
+          }
+.button{
+display: flex;
+justify-content: center;
+cursor: pointer;
+background:rgb(203, 202, 180);
+font-size: 2vw;
+font-family: Calibri;
+border:2px solid#ffffff;
+padding:2vw 6vw;
+border-radius: 5%;
+}
+
+.aboutFabrik2{
+text-align: right;
+margin-top:1%;
+margin-right:5%;
+font-size: 4vw;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 2%;          
+}
+.video{
+margin-left: 3%;
+margin-top:12%;
+height: max-content;
+width: 25%;
+border-radius: 5vw;
+
+}
+.video2{
+    margin-right: 3%;
+    margin-top:12%;
+    height: max-content;
+    width:25%;
+    border-radius: 10%;
+  
+    }
+.row{
+display: flex;
+flex-direction: row;
+}
+}
+@media only screen and (min-width: 1020px) and (max-width:1300px) {
+  .header {
+    color: rgb(11, 11, 11);
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 3%;
+    text-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.716); /* Text shadow for depth */
+    backdrop-filter: blur(5px); /* Background blur for cinematic effect */
+
+  }
+
+.strips{
+    padding:1vw 2vw;
+    background-color: rgba(54, 37, 37, 0.51);
+margin-top:5%;
+margin-bottom:15%;
+background: repeating-linear-gradient(-45deg, black, black 2vh, white 2vh, white 5vh);
+  box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);  
+}
+  .container{
+box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw black;
+    background: linear-gradient(to right, #c2c2c2, #f2f2f2);
+    padding-bottom: 2%;
+  }
+  
+  .sectionContainer{
+display: flex;
+flex-direction: column;
+width:30vw;
+height:100%;
+margin-left: auto;
+margin-right: 4%;
+margin-top: 7%;
+padding:5vw;
+background-color:  rgb(10, 6, 6);
+color: rgb(255, 255, 255);
+font-size: 2vw;
+text-align: right;
+font-weight: lighter;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+border-radius: 0.5vh;
+  }
+  .topSection{
+    width:30vw;
+    margin-top: 5%;
+    margin-right:12%;
+margin-left: auto;
+    padding:1vw 2vw;
+    background-color: rgba(54, 37, 37, 0.51);
+    transform: rotate(-25deg);
+    background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+  }
+  .aboutFabrik{
+    text-align: right;
+       margin-top:1%;
+   margin-right:5%;
+   font-size: 3.5vw;
+   font-weight: lighter;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 2%;
+   
+     }
+     .topSection2{
+        width:30vw;
+        margin-top: 10%;
+        margin-left:12%;
+    margin-right: auto;
+        padding:1vw 2vw;
+        background-color: rgba(54, 37, 37, 0.51);
+        transform: rotate(25deg);
+        background: linear-gradient(-45deg, black 50%, rgb(255, 255, 255) 50%);
+        box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(0, 0, 0, 0.419);
+      }
+      .sectionContainer2{
+        display: flex;
+        flex-direction: column;
+        width:30vw;
+        height:100%;
+        margin-right: auto;
+        margin-left: 4%;
+        margin-top: 7%;
+        padding:5vw;
+        background-color:  rgb(10, 6, 6);
+        color: rgb(255, 255, 255);
+        font-size: 2vw;
+        text-align: right;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.651);
+        border-radius: 0.5vh;
+          }
+.button{
+display: flex;
+justify-content: center;
+cursor: pointer;
+background:rgb(203, 202, 180);
+font-size: 2vw;
+font-family: Calibri;
+border:2px solid#ffffff;
+padding:1vw 4vw;
+border-radius: 5%;
+}
+
+.aboutFabrik2{
+text-align: right;
+margin-top:1%;
+margin-right:5%;
+font-size: 4.5vw;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 2%;          
+}
+.video{
+margin-left: 3%;
+margin-top:12%;
+height: max-content;
+width: 20%;
+border-radius: 5vw;
+
+}
+.video2{
+    margin-right: 3%;
+    margin-top:12%;
+    height: max-content;
+    width:20%;
+    border-radius: 10%;
+  
+    }
+.row{
+display: flex;
+flex-direction: row;
+}
+}

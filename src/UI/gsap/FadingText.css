@@ -1,0 +1,29 @@
+.fading-word{
+    font-size:2vw
+}
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .fading-word{
+        font-size:4vw
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .fading-word{
+        font-size:3.5vw
+    }
+  }
+
+  @media only screen and (min-width: 720px) and (max-width:850px) {
+    .fading-word{
+        font-size:3vw
+    }
+  }
+  @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .fading-word{
+        font-size:2.5vw
+    }
+  }
+  @media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .fading-word{
+        font-size:2vw
+    }
+  }

@@ -1,0 +1,58 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background-color: white; /* Set the desired background color for the sticky bar */
+    z-index: 100; /* Ensure the bar appears above other content */
+width:100%;
+}
+.logo{
+
+   margin:2%;
+
+}
+
+
+.fabrik{
+/* color:#4b75ab; */
+color:black;
+font-size: 3vh;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+    text-decoration: none;
+}
+.right{
+    /* margin-left: auto; */
+    margin-right: 7%;
+}
+.kishutayLogo{
+    object-fit: fill;
+    height:12vh;
+display: flex;
+justify-content: center;
+
+ position: static;
+}
+.phones{
+ text-align: right;
+ margin-right:5%;
+ margin-top:2%;
+}
+.sideNav{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content:space-between;
+position:absolute;
+
+right:0;
+padding-right:1%;
+    background-color: white; /* Set the desired background color for the sticky bar */
+    z-index: 100; /* Ensure the bar appears above other content */
+height: 100%;
+width:5%
+}
+@media (max-width:350px) {
+
+}

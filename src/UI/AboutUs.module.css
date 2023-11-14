@@ -1,0 +1,403 @@
+
+.container{
+    margin-left:4%;
+    margin-right:4%;
+    margin-top:1%;
+ 
+}
+.header{
+    font-size: 7vh;
+    font-family: Calibri;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.aboutUs{
+
+font-size: 3.3vh;
+font-family: Calibri;
+    width:40%;
+    margin: 0 auto;
+    text-align: center;
+    padding:1%;
+
+ 
+
+}
+.image{
+    height:20vw;
+    width:50%;
+    object-fit: fill;
+}
+.center{
+   text-align: center;
+}
+.logo{
+    text-decoration: none;
+    margin:10vh
+}
+.moreDetails{
+margin:5vh;
+padding-left:25%;
+ display: flex;
+ flex-direction:space-between ;
+}
+.contact{
+    margin-top:2%;
+
+    font-weight: bold;
+    font-size: 3vh;
+text-align: center;
+}
+  
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .container{
+        margin-left:4%;
+        margin-right:4%;
+        margin-top:4%;
+     
+    }
+    .header{
+        font-size: 12vw;
+        font-family: Calibri;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        color: orange;
+    }
+    .aboutUs{
+    
+    font-size: 4.3vw;
+    font-family: Calibri;
+        width:60%;
+        margin: 0 auto;
+        text-align: center;
+        padding:1%;
+    
+     
+    
+    }
+    .image{
+        height:30vw;
+        width:70%;
+        object-fit: fill;
+
+    }
+    .center{
+       text-align: center;
+    }
+    .logo{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        margin:8vw ;
+   
+    }
+    .moreDetails{
+
+    margin:0 8vw;
+    flex-wrap: wrap;
+    width:90%;
+     display: flex;
+     flex-direction:row;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+
+    }
+    .contact{
+        width:70%;
+        font-weight: bold;
+        font-size: 4vw;
+        margin:5vh auto;
+    text-align: center;
+    justify-content: center;
+    }
+    .centered{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-right:60%
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .container{
+        margin-left:4%;
+        margin-right:4%;
+        margin-top:4%;
+     
+    }
+    .header{
+        font-size: 9vw;
+        font-family: Calibri;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        color: orange;
+    }
+    .aboutUs{
+    
+    font-size: 3.5vw;
+    font-family: Calibri;
+        width:60%;
+        margin: 0 auto;
+        text-align: center;
+        padding:1%;
+    
+     
+    
+    }
+    .image{
+        height:25vw;
+        width:60%;
+        object-fit: fill;
+
+    }
+    .center{
+       text-align: center;
+    }
+    .logo{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        margin:6vw ;
+   
+    }
+    .moreDetails{
+
+    margin:0 8vw;
+    flex-wrap: wrap;
+    width:90%;
+     display: flex;
+     flex-direction:row;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+
+    }
+    .contact{
+        width:70%;
+        font-weight: bold;
+        font-size: 3.5vw;
+        margin:5vh auto;
+    text-align: center;
+    justify-content: center;
+    }
+    .centered{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-right:60%
+    }
+  }
+
+  @media only screen and (min-width: 720px) and (max-width:850px) {
+    .container{
+        margin-left:4%;
+        margin-right:4%;
+        margin-top:4%;
+     
+    }
+    .header{
+        font-size: 6vw;
+        font-family: Calibri;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        color: orange;
+    }
+    .aboutUs{
+    
+    font-size: 2.8vw;
+    font-family: Calibri;
+        width:70%;
+        margin: 0 auto;
+        text-align: center;
+        padding:1%;
+    
+     
+    
+    }
+    .image{
+        height:23vw;
+        width:50%;
+        object-fit: fill;
+
+    }
+    .center{
+       text-align: center;
+    }
+    .logo{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        margin:5vw ;
+   
+    }
+    .moreDetails{
+
+    margin:0 6vw;
+    flex-wrap: wrap;
+    width:90%;
+     display: flex;
+     flex-direction:row;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+
+    }
+    .contact{
+        width:70%;
+        font-weight: bold;
+        font-size: 3.5vw;
+        margin:5vh auto;
+    text-align: center;
+    justify-content: center;
+    }
+    .centered{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-right:60%
+    }
+  }
+  @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .container{
+        margin-left:4%;
+        margin-right:4%;
+        margin-top:4%;
+     
+    }
+    .header{
+        font-size: 5vw;
+        font-family: Calibri;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        color: orange;
+    }
+    .aboutUs{
+    
+    font-size: 2.5vw;
+    font-family: Calibri;
+        width:70%;
+        margin: 0 auto;
+        text-align: center;
+        padding:1%;
+    
+     
+    
+    }
+    .image{
+        height:20vw;
+        width:50%;
+        object-fit: fill;
+
+    }
+    .center{
+       text-align: center;
+    }
+    .logo{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        margin:3vw ;
+   
+    }
+    .moreDetails{
+
+    margin:0 5vw;
+    flex-wrap: wrap;
+    width:90%;
+     display: flex;
+     flex-direction:row;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+
+    }
+    .contact{
+        width:70%;
+        font-weight: bold;
+        font-size: 3vw;
+        margin:5vh auto;
+    text-align: center;
+    justify-content: center;
+    }
+    .centered{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-right:60%
+    }
+  }
+  @media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .container{
+        margin-left:4%;
+        margin-right:4%;
+        margin-top:4%;
+     
+    }
+    .header{
+        font-size: 5vw;
+        font-family: Calibri;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        color: orange;
+    }
+    .aboutUs{
+    
+    font-size: 2vw;
+    font-family: Calibri;
+        width:70%;
+        margin: 0 auto;
+        text-align: center;
+        padding:1%;
+    
+     
+    
+    }
+    .image{
+        height:18vw;
+        width:40%;
+        object-fit: fill;
+
+    }
+    .center{
+       text-align: center;
+    }
+    .logo{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        margin:2vw ;
+   
+    }
+    .moreDetails{
+
+    margin:0 5vw;
+    flex-wrap: wrap;
+    width:90%;
+     display: flex;
+     flex-direction:row;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+
+    }
+    .contact{
+        width:70%;
+        font-weight: bold;
+        font-size: 2vw;
+        margin:5vh auto;
+    text-align: center;
+    justify-content: center;
+    }
+    .centered{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-right:60%
+    }
+  }

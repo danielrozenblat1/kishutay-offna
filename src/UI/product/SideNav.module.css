@@ -1,0 +1,98 @@
+.sidebarContent {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: right;
+    z-index: 999;
+    width: 100%;
+    max-width: 25vh; /* Set the maximum width when open */
+    background-color: white; /* Set the background color */
+    transition: all 1s ease-out;
+  }
+  .sidebarToggleBtn {
+    border: none;
+    background: none;
+    width: 4vh;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+    color: black;
+    transition: all 1s ease-out;
+  }
+  .sidebarToggle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: right;
+    z-index: 999;
+    width: 4vh;
+    height: 4vh;
+    margin-right: 0.5%;
+    margin-top: 1%;
+    transition:all ease-out 1s 
+  }
+  .open{
+    transition:all ease-out 1s 
+  }
+  .closed {
+    transition:all ease-out 1s 
+  }
+  /* Menu */
+  .menu {
+    list-style: none;
+    padding: 0;
+    transition: all 1s ease-out;
+  }
+  /* Add a class to control width when closed */
+
+  /* Menu Item */
+  .menuItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh  0.5vh;
+    transition: all 1s ease-out;
+    /* Add any other styling you want for the menu items */
+  }
+  
+  /* Style the links and icons inside the menu items */
+  .menuItem a,
+  .menuItem svg {
+    font-size: 4vh;
+    color: black;
+    /* Add any other styling you want for the links and icons */
+  }
+.logo{
+
+   margin:2%;
+
+}
+
+
+.fabrik{
+/* color:#4b75ab; */
+color:black;
+font-size: 1.6vw;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+    text-decoration: none;
+}
+.right{
+    /* margin-left: auto; */
+    margin-right: 7%;
+}
+.kishutayLogo{
+    object-fit: fill;
+    height:7vh;
+display: flex;
+justify-content: center;
+
+ position: static;
+}

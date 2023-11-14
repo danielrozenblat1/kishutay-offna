@@ -1,0 +1,27 @@
+.header{
+    background-color: #edf5e1;
+    color:#edf5e1;
+    -webkit-text-stroke: 0.2vw black;
+    padding:2vh 4vh;
+    text-align: center;
+    font-size:10vh;
+    font-weight: bold;
+font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:5%;
+    margin-right:5%;
+}
+.midHeader{
+
+    color:  #8c8e8e;
+
+border-bottom: 1px solid #586565 ;
+padding-bottom: 1%;
+    text-align: center;
+    font-size: 3.5vh;
+    margin-top: 2%;
+}

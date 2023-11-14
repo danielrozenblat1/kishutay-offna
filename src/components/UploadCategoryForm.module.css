@@ -1,0 +1,41 @@
+.container{
+    border:1px dashed black;
+    padding:3vw 2vh;
+    margin:10vh;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+.formContainer{
+text-align: center;
+}
+.header{
+    font-size: 6vh;
+    font-weight: bold;
+    font-style: italic;
+    font-family:serif;
+    text-align:center;
+    margin-bottom: 3%;
+}
+.labels{
+    font-size: 3vh;
+    font-family:serif;
+    text-align:center;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+.inputs{
+
+    padding:1vh 1vw 
+}
+.button{
+    margin-top: 1%;
+    padding:1vh 1vw ;
+    font-size: 2vh;
+    border-radius: 1vh;
+}

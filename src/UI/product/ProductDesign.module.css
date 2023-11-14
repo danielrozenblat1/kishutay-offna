@@ -1,0 +1,402 @@
+.container{
+    height:30vw;
+    width:24vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin :0 auto
+}
+
+
+.productContainer{
+ height:100%;
+ width:100%;
+ margin:0 auto;
+
+}
+.a{
+   height: 60%;
+    width:75%
+}
+.image{
+  
+    height:100%;
+    width:95%;
+    object-fit: fill;
+    border-radius: 2%;
+}
+.title{
+    font-family: Calibri;
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: lighter;
+    width:100%;
+    margin-top:5%;
+}
+.price{
+    margin-top:3%;
+    font-family: Calibri;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.meters{
+    margin-top:2%;
+
+    font-size: 2.5vh;
+    font-weight: lighter;
+}
+.buttonContainer{
+    margin-top:4%;
+    height:20%;
+
+    display: flex;
+    justify-content: center; 
+}
+.discount{
+    margin-top:1%;
+    font-size: 3vh;
+    font-weight: bold;
+text-decoration: line-through;
+    font-family: Calibri;
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .container{
+        height:55vw;
+        width:42vw;
+
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin :3vh auto
+    }
+    
+    
+    .productContainer{
+     height:100%;
+     width:100%;
+     margin:0 auto;
+    
+    }
+    .a{
+       height: 60%;
+        width:75%
+    }
+    .image{
+      
+        height:100%;
+        width:100%;
+        object-fit: fill;
+        border-radius: 2%;
+    
+    }
+    .title{
+        font-family: Calibri;
+        text-align: center;
+        font-size: 3vw;
+        font-weight: lighter;
+        width:80%;
+    
+    }
+    .price{
+        margin-top:2%;
+        font-family: Calibri;
+        font-size:3.5vw;
+        font-weight: bold;
+    }
+    .meters{
+        margin-top:2%;
+    
+        font-size: 2.5vh;
+        font-weight: lighter;
+    }
+    .buttonContainer{
+        margin-top:4%;
+        height:20%;
+    
+        display: flex;
+        justify-content: center; 
+  
+    }
+    .discount{
+        margin-top:1%;
+        font-size: 3vh;
+        font-weight: bold;
+    text-decoration: line-through;
+        font-family: Calibri;
+    
+    }
+  }
+  @media only screen and (min-width: 220px) and (max-width:415px) {
+    .container{
+        height:50vw;
+        width:38vw;
+
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin :3vh auto
+    }
+    
+    
+    .productContainer{
+     height:100%;
+     width:100%;
+     margin:0 auto;
+    
+    }
+    .a{
+       height: 60%;
+        width:75%
+    }
+    .image{
+      
+        height:100%;
+        width:100%;
+        object-fit: fill;
+        border-radius: 2%;
+    
+    }
+    .title{
+        font-family: Calibri;
+        text-align: center;
+        font-size: 3.5vw;
+        font-weight: lighter;
+        width:100%;
+    
+    }
+    .price{
+        margin-top:2%;
+        font-family: Calibri;
+        font-size: 4vw;
+        font-weight: bold;
+    }
+    .meters{
+        margin-top:2%;
+    
+        font-size: 2.5vh;
+        font-weight: lighter;
+    }
+    .buttonContainer{
+        margin-top:4%;
+        height:20%;
+    
+        display: flex;
+        justify-content: center; 
+    }
+    .discount{
+        margin-top:1%;
+        font-size: 3vh;
+        font-weight: bold;
+    text-decoration: line-through;
+        font-family: Calibri;
+    
+    }
+  }
+  @media only screen and (min-width: 721px) and (max-width:850px) {
+    .container{
+        height:55vw;
+        width:40vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin :3vh auto
+    }
+    
+    
+    .productContainer{
+     height:100%;
+     width:100%;
+     margin:0 auto;
+    
+    }
+    .a{
+       height: 60%;
+        width:75%
+    }
+    .image{
+      
+        height:100%;
+        width:100%;
+        object-fit: fill;
+        border-radius: 2%;
+    
+    }
+    .title{
+        font-family: Calibri;
+        text-align: center;
+        font-size: 2.1vw;
+        font-weight: lighter;
+        width:100%;
+    
+    }
+    .price{
+        margin-top:2%;
+        font-family: Calibri;
+        font-size: 2.5vw;
+        font-weight: bold;
+    }
+    .meters{
+        margin-top:2%;
+    
+        font-size: 2.5vh;
+        font-weight: lighter;
+    }
+    .buttonContainer{
+        margin-top:4%;
+        height:20%;
+    
+        display: flex;
+        justify-content: center; 
+    }
+    .discount{
+        margin-top:1%;
+        font-size: 3vh;
+        font-weight: bold;
+    text-decoration: line-through;
+        font-family: Calibri;
+    
+    }
+  }
+  @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .container{
+        height:55vw;
+        width:40vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin :3vh auto
+    }
+    
+    
+    .productContainer{
+     height:100%;
+     width:100%;
+     margin:0 auto;
+    
+    }
+    .a{
+       height: 60%;
+        width:75%
+    }
+    .image{
+      
+        height:100%;
+        width:100%;
+        object-fit: fill;
+        border-radius: 2%;
+    
+    }
+    .title{
+        font-family: Calibri;
+        text-align: center;
+        font-size: 2vw;
+        font-weight: lighter;
+        width:100%;
+    
+    }
+    .price{
+        margin-top:2%;
+        font-family: Calibri;
+        font-size: 2.5vw;
+        font-weight: bold;
+    }
+    .meters{
+        margin-top:2%;
+    
+        font-size: 2.5vh;
+        font-weight: lighter;
+    }
+    .buttonContainer{
+        margin-top:4%;
+        height:20%;
+    
+        display: flex;
+        justify-content: center; 
+    }
+    .discount{
+        margin-top:1%;
+        font-size: 3vh;
+        font-weight: bold;
+    text-decoration: line-through;
+        font-family: Calibri;
+    
+    }
+  }
+  @media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .container{
+        height:40vw;
+        width:30vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin :3vh auto
+    }
+    
+    
+    .productContainer{
+     height:100%;
+     width:100%;
+     margin:0 auto;
+    
+    }
+    .a{
+       height: 60%;
+        width:75%
+    }
+    .image{
+      
+        height:100%;
+        width:100%;
+        object-fit: fill;
+        border-radius: 2%;
+    
+    }
+    .title{
+        font-family: Calibri;
+        text-align: center;
+        font-size: 1.45vw;
+        font-weight: lighter;
+        width:100%;
+    
+    }
+    .price{
+        margin-top:2%;
+        font-family: Calibri;
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+    .meters{
+        margin-top:2%;
+    
+        font-size: 2.5vh;
+        font-weight: lighter;
+    }
+    .buttonContainer{
+        margin-top:4%;
+        height:20%;
+    
+        display: flex;
+        justify-content: center; 
+    }
+    .discount{
+        margin-top:1%;
+        font-size: 3vh;
+        font-weight: bold;
+    text-decoration: line-through;
+        font-family: Calibri;
+    
+    }
+  }

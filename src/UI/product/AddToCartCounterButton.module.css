@@ -1,0 +1,121 @@
+.button{
+color: #1b6a6a;
+font-size: 3vh;
+background-color:#edf5e1;
+border:none;
+cursor: pointer;
+padding:0.5vh 2vh;
+
+}
+
+.buttonWrapper{
+height:5vh;
+width:30vh;
+
+   border:2px solid #1b6a6a;
+
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+   .button{
+      color: #1b6a6a;
+      font-size: 3.5vw;
+      background-color:#edf5e1;
+      border:none;
+      cursor: pointer;
+      padding:0.5vw 1.5vw;
+      }
+
+      .counter{
+         font-size: 3vw;
+      }
+      .buttonWrapper{
+      height:6vw;
+      width:30vw;
+      
+         border:2px solid #1b6a6a;
+      
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+      }
+}
+@media only screen and (min-width: 220px) and (max-width:415px) {
+   .button{
+      color: #1b6a6a;
+      font-size: 5vw;
+      background-color:#edf5e1;
+      border:none;
+      cursor: pointer;
+      padding:0.5vw 1.5vw;
+      }
+
+      .counter{
+         font-size: 4vw;
+      }
+      .buttonWrapper{
+      height:8vw;
+      width:33vw;
+      
+         border:2px solid #1b6a6a;
+      
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+      }
+}
+@media only screen and (min-width: 720px) and (max-width:850px) {
+   .button{
+      color: #1b6a6a;
+      font-size: 3vw;
+      background-color:#edf5e1;
+      border:none;
+      cursor: pointer;
+      padding:0.5vw 1.5vw;
+      }
+
+      .counter{
+         font-size: 2.5vw;
+      }
+      .buttonWrapper{
+      height:5vw;
+      width:30vw;
+      
+         border:2px solid #1b6a6a;
+      
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+      }
+}
+@media only screen and (min-width: 850px) and (max-width:1020px) {
+   .button{
+      color: #1b6a6a;
+      font-size: 3vw;
+      background-color:#edf5e1;
+      border:none;
+      cursor: pointer;
+      padding:0.5vw 1.5vw;
+      }
+
+      .counter{
+         font-size: 2vw;
+      }
+      .buttonWrapper{
+      height:5vw;
+      width:30vw;
+      
+         border:2px solid #1b6a6a;
+      
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+      }
+}
+@media only screen and (min-width: 1020px) and (max-width:1300px) {
+  
+}

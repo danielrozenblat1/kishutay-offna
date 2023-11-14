@@ -1,0 +1,17 @@
+.formContainer{
+    width:20%;
+  text-align: center;
+}
+.header{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 3vh;
+}
+.button{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding:1vh 4vh;
+    cursor: pointer;
+    border:none;
+    border-radius: 1vh;
+}

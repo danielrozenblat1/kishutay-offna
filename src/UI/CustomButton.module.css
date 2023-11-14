@@ -1,0 +1,150 @@
+.button{
+    margin-top:3%;
+
+    background-color: rgb(233, 188, 255);
+    border:none;
+    border-radius: 5vh;
+    padding: 3vh 5vw;
+    font-size:3vh;
+    text-decoration: none;
+    color:black
+}
+.button:hover{
+background-color: rgba(193, 45, 171, 0.579);
+transform: scale(1.1);
+transition: all ease-out 0.5s;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .button{
+        margin-top:3%;
+    
+        background-color: rgb(233, 188, 255);
+        border:none;
+        border-radius: 5vh;
+        padding: 3vw 6vw;
+        font-size:3vw;
+        text-decoration: none;
+        color:black
+    }
+    .button:hover{
+    background-color: rgba(193, 45, 171, 0.579);
+    transform: scale(1.1);
+    transition: all ease-out 0.5s;
+    
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+      }
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .button{
+        margin-top:3%;
+    
+        background-color: rgb(233, 188, 255);
+        border:none;
+        border-radius: 5vh;
+        padding: 3vw 6vw;
+        font-size:2.5vw;
+        text-decoration: none;
+        color:black
+    }
+    .button:hover{
+    background-color: rgba(193, 45, 171, 0.579);
+    transform: scale(1.1);
+    transition: all ease-out 0.5s;
+    
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+      }
+  }
+
+  @media only screen and (min-width: 720px) and (max-width:850px) {
+    .button{
+        margin-top:3%;
+    
+        background-color: rgb(233, 188, 255);
+        border:none;
+        border-radius: 5vh;
+        padding: 3vw 6vw;
+        font-size:2.5vw;
+        text-decoration: none;
+        color:black
+    }
+    .button:hover{
+    background-color: rgba(193, 45, 171, 0.579);
+    transform: scale(1.1);
+    transition: all ease-out 0.5s;
+    
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+      }
+  }
+  @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .button{
+        margin-top:3%;
+    
+        background-color: rgb(233, 188, 255);
+        border:none;
+        border-radius: 5vh;
+        padding: 2vw 7vw;
+        font-size:2vw;
+        text-decoration: none;
+        color:black
+    }
+    .button:hover{
+    background-color: rgba(193, 45, 171, 0.579);
+    transform: scale(1.1);
+    transition: all ease-out 0.5s;
+    
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+      }
+  }
+  @media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .button{
+        margin-top:3%;
+    
+        background-color: rgb(233, 188, 255);
+        border:none;
+        border-radius: 5vh;
+        padding: 2vw 7vw;
+        font-size:2vw;
+        text-decoration: none;
+        color:black
+    }
+    .button:hover{
+    background-color: rgba(193, 45, 171, 0.579);
+    transform: scale(1.1);
+    transition: all ease-out 0.5s;
+    
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+      }
+  }

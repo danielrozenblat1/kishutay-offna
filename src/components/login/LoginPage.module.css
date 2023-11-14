@@ -1,0 +1,591 @@
+.label{
+font-family: Calibri;
+font-size: 1.25vw;
+padding:1vw;
+margin:0 auto;
+margin-top:1vw;
+}
+.button{
+    padding:1vw;
+width:55%;
+margin:0 auto;
+border:2px solid rgba(0, 0, 0, 0.367);
+border-radius: 2%;
+box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+background: rgb(255, 186, 112);
+text-align: center;
+font-size: 1.25vw;
+font-family: Calibri;
+cursor: pointer;
+margin-top:4vw;
+
+transition: all ease-out 3s;
+}
+.input{
+padding:1vw;
+width:50%;
+margin:0.5vw auto;
+border:1px solid rgba(0, 0, 0, 0.367);
+border-radius: 1vw;
+box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+background: rgb(255, 221, 185);
+text-align: center;
+font-size: 1.25vw;
+font-family: Calibri;
+margin-bottom: 1vw;
+}
+
+.didntLogIn{
+width:30%;
+font-family: Calibri;
+font-size:1.5vw;
+text-align:center;
+margin:0 auto;
+padding-top:2vw;
+padding-bottom: 2vw;
+        }
+
+.navLink{
+text-decoration:none;
+font-size:2.5vw;
+color:black
+}
+
+.header{
+font-family: Calibri;
+font-size: 4vw;
+color:rgb(179, 105, 1);
+text-align: center;
+padding:1vw;
+ width:30%;
+margin:0 auto;
+}
+
+.form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width:40%;
+margin:0 auto;
+border:4px dashed white;
+padding:2vw;       
+}
+
+.subHeader{
+font-family: Calibri;
+font-size: 2vw;
+color:rgb(238, 146, 17);
+text-align: center;
+padding:1vw;
+width:30%;
+margin:0 auto;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width:20%;
+margin:1vw auto;
+}
+.mouseIcon{
+display:flex;
+color:orange;
+font-size:2vw;
+margin:0 auto
+}
+                @media only screen and (min-width: 415px) and (max-width: 720px) {
+                    .label{
+                        font-family: Calibri;
+                        font-size: 4vw;
+                        padding:2vw;
+                        margin:0 auto;
+
+                        }
+                        .button{
+                            padding:2vw;
+                        width:55%;
+                        margin:8vw auto;
+                        border:2px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 2%;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 186, 112);
+                        text-align: center;
+                        font-size:3vw;
+                        font-family: Calibri;
+                        cursor: pointer;
+                     
+                        
+                        transition: all ease-out 3s;
+                        }
+                        .input{
+                        padding:2.5vw;
+                        width:50%;
+                        margin:4vw auto;
+                        border:1px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 1vw;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 221, 185);
+                        text-align: center;
+                        font-size: 3vw;
+                        font-family: Calibri;
+                
+                        }
+                        
+                        .didntLogIn{
+                        width:70%;
+                        font-family: Calibri;
+                        font-size:3.5vw;
+                        text-align:center;
+                        margin:0 auto;
+                        padding-top:2vw;
+                        padding-bottom: 2vw;
+                                }
+                        
+                        .navLink{
+                        text-decoration:none;
+                        font-size:3.5vw;
+                        color:black;
+
+                        }
+                        
+                        .header{
+                        font-family: Calibri;
+                        font-size: 9vw;
+                        color:rgb(179, 105, 1);
+                        text-align: center;
+                        padding:3vw;
+                         width:100%;
+                        margin:2vw auto;
+                        }
+                        
+                        .form{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        width:70%;
+                        margin:1vw auto;
+                        border:4px dashed white;
+                        padding:3vw;       
+                        }
+                        
+                        .subHeader{
+                        font-family: Calibri;
+                        font-size: 4.5vw;
+                        color:rgb(238, 146, 17);
+                        text-align: center;
+                        padding:1vw;
+                        width:70%;
+                        margin:2vw auto;
+                        }
+                        
+                        .row{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        width:40%;
+                        margin:1vw auto;
+                        }
+                        .mouseIcon{
+                        display:flex;
+                        color:orange;
+                        font-size:4.5vw;
+                        margin:1vw auto
+                        }
+                }
+                @media only screen and (min-width: 220px) and (max-width:415px) {
+                    .label{
+                        font-family: Calibri;
+                        font-size: 5.5vw;
+                        padding:2vw;
+                        margin:0 auto;
+
+                        }
+                        .button{
+                            padding:2vw;
+                        width:55%;
+                        margin:8vw auto;
+                        border:2px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 2%;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 186, 112);
+                        text-align: center;
+                        font-size:4.5vw;
+                        font-family: Calibri;
+                        cursor: pointer;
+                     
+                        
+                        transition: all ease-out 3s;
+                        }
+                        .input{
+                        padding:2.5vw;
+                        width:50%;
+                        margin:4vw auto;
+                        border:1px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 1vw;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 221, 185);
+                        text-align: center;
+                        font-size: 4.5vw;
+                        font-family: Calibri;
+                
+                        }
+                        
+                        .didntLogIn{
+                        width:70%;
+                        font-family: Calibri;
+                        font-size:5vw;
+                        text-align:center;
+                        margin:0 auto;
+                        padding-top:2vw;
+                        padding-bottom: 2vw;
+                                }
+                        
+                        .navLink{
+                        text-decoration:none;
+                        font-size:5vw;
+                        color:black;
+
+                        }
+                        
+                        .header{
+                        font-family: Calibri;
+                        font-size: 12vw;
+                        color:rgb(179, 105, 1);
+                        text-align: center;
+                        padding:3vw;
+                         width:100%;
+                        margin:2vw auto;
+                        }
+                        
+                        .form{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        width:80%;
+                        margin:1vw auto;
+                        border:4px dashed white;
+                        padding:3vw;       
+                        }
+                        
+                        .subHeader{
+                        font-family: Calibri;
+                        font-size: 6vw;
+                        color:rgb(238, 146, 17);
+                        text-align: center;
+                        padding:1vw;
+                        width:70%;
+                        margin:2vw auto;
+                        }
+                        
+                        .row{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        width:40%;
+                        margin:1vw auto;
+                        }
+                        .mouseIcon{
+                        display:flex;
+                        color:orange;
+                        font-size:6vw;
+                        margin:1vw auto
+                        }
+                }
+                @media only screen and (min-width: 721px) and (max-width:850px) {
+                    .label{
+                        font-family: Calibri;
+                        font-size: 2.5vw;
+                        padding:2vw;
+                        margin:0 auto;
+
+                        }
+                        .button{
+                            padding:1.5vw;
+                        width:45%;
+                        margin:4vw auto;
+                        border:2px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 2%;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 186, 112);
+                        text-align: center;
+                        font-size:2.5vw;
+                        font-family: Calibri;
+                        cursor: pointer;
+                     
+                        
+                        
+                        }
+                        .input{
+                        padding:2vw;
+                        width:50%;
+                        margin:3vw auto;
+                        border:1px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 1vw;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 221, 185);
+                        text-align: center;
+                        font-size: 2.2vw;
+                        font-family: Calibri;
+                
+                        }
+                        
+                        .didntLogIn{
+                        width:70%;
+                        font-family: Calibri;
+                        font-size:3vw;
+                        text-align:center;
+                        margin:0 auto;
+                        padding-top:2vw;
+                        padding-bottom: 2vw;
+                                }
+                        
+                        .navLink{
+                        text-decoration:none;
+                        font-size:3.5vw;
+                        color:black;
+
+                        }
+                        
+                        .header{
+                        font-family: Calibri;
+                        font-size: 7vw;
+                        color:rgb(179, 105, 1);
+                        text-align: center;
+                        padding:3vw;
+                         width:70%;
+                        margin:0 auto;
+                        }
+                        
+                        .form{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        width:65%;
+                        margin:1vw auto;
+                        border:4px dashed white;
+                        padding:3vw;       
+                        }
+                        
+                        .subHeader{
+                        font-family: Calibri;
+                        font-size: 2.5vw;
+                        color:rgb(238, 146, 17);
+                        text-align: center;
+                        padding:1vw;
+                        width:65%;
+                        margin:2vw auto;
+                        }
+                        
+                        .row{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        width:30%;
+                        margin:1vw auto;
+                        }
+                        .mouseIcon{
+                        display:flex;
+                        color:orange;
+                        font-size:3vw;
+                        margin:1vw auto
+                        }
+                }
+                @media only screen and (min-width: 850px) and (max-width:1020px) {
+                    .label{
+                        font-family: Calibri;
+                        font-size: 2.5vw;
+                        padding:2vw;
+                        margin:0 auto;
+
+                        }
+                        .button{
+                            padding:1.5vw;
+                        width:45%;
+                        margin:4vw auto;
+                        border:2px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 2%;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 186, 112);
+                        text-align: center;
+                        font-size:2.5vw;
+                        font-family: Calibri;
+                        cursor: pointer;
+                     
+                        
+                        
+                        }
+                        .input{
+                        padding:2vw;
+                        width:50%;
+                        margin:3vw auto;
+                        border:1px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 1vw;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 221, 185);
+                        text-align: center;
+                        font-size: 2.2vw;
+                        font-family: Calibri;
+                
+                        }
+                        
+                        .didntLogIn{
+                        width:70%;
+                        font-family: Calibri;
+                        font-size:2.5vw;
+                        text-align:center;
+                        margin:0 auto;
+                        padding-top:2vw;
+                        padding-bottom: 2vw;
+                                }
+                        
+                        .navLink{
+                        text-decoration:none;
+                        font-size:3.5vw;
+                        color:black;
+
+                        }
+                        
+                        .header{
+                        font-family: Calibri;
+                        font-size: 7vw;
+                        color:rgb(179, 105, 1);
+                        text-align: center;
+                        padding:3vw;
+                         width:70%;
+                        margin:0 auto;
+                        }
+                        
+                        .form{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        width:60%;
+                        margin:1vw auto;
+                        border:4px dashed white;
+                        padding:3vw;       
+                        }
+                        
+                        .subHeader{
+                        font-family: Calibri;
+                        font-size: 2vw;
+                        color:rgb(238, 146, 17);
+                        text-align: center;
+                        padding:1vw;
+                        width:65%;
+                        margin:2vw auto;
+                        }
+                        
+                        .row{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        width:30%;
+                        margin:1vw auto;
+                        }
+                        .mouseIcon{
+                        display:flex;
+                        color:orange;
+                        font-size:2.5vw;
+                        margin:1vw auto
+                        }
+                }
+                @media only screen and (min-width: 1020px) and (max-width:1300px) {
+                    .label{
+                        font-family: Calibri;
+                        font-size: 2.5vw;
+                        padding:2vw;
+                        margin:0 auto;
+
+                        }
+                        .button{
+                            padding:1vw;
+                        width:45%;
+                        margin:3vw auto;
+                        border:2px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 2%;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 186, 112);
+                        text-align: center;
+                        font-size:2vw;
+                        font-family: Calibri;
+                        cursor: pointer;
+                     
+                        
+                        
+                        }
+                        .input{
+                        padding:1vw;
+                        width:50%;
+                        margin:3vw auto;
+                        border:1px solid rgba(0, 0, 0, 0.367);
+                        border-radius: 1vw;
+                        box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+                        background: rgb(255, 221, 185);
+                        text-align: center;
+                        font-size: 2vw;
+                        font-family: Calibri;
+                
+                        }
+                        
+                        .didntLogIn{
+                        width:70%;
+                        font-family: Calibri;
+                        font-size:2vw;
+                        text-align:center;
+                        margin:0 auto;
+                        padding-top:2vw;
+                        padding-bottom: 2vw;
+                                }
+                        
+                        .navLink{
+                        text-decoration:none;
+                        font-size:3vw;
+                        color:black;
+
+                        }
+                        
+                        .header{
+                        font-family: Calibri;
+                        font-size: 5vw;
+                        color:rgb(179, 105, 1);
+                        text-align: center;
+                        padding:3vw;
+                         width:70%;
+                        margin:0 auto;
+                        }
+                        
+                        .form{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        width:40%;
+                        margin:1vw auto;
+                        border:4px dashed white;
+                        padding:3vw;       
+                        }
+                        
+                        .subHeader{
+                        font-family: Calibri;
+                        font-size: 2vw;
+                        color:rgb(238, 146, 17);
+                        text-align: center;
+                        padding:1vw;
+                        width:65%;
+                        margin:2vw auto;
+                        }
+                        
+                        .row{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        width:30%;
+                        margin:1vw auto;
+                        }
+                        .mouseIcon{
+                        display:flex;
+                        color:orange;
+                        font-size:2vw;
+                        margin:1vw auto
+                        }
+                }

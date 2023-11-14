@@ -1,0 +1,506 @@
+.cartContainer{
+
+
+width: 18vw;
+box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.534);
+position:fixed;
+background-color: beige;
+left:0;
+top:20%;
+border-radius: 2%;
+z-index: 999;
+}
+
+
+
+.cartHeader {
+    font-family: Calibri, serif;
+    font-size: 1.2vw; 
+    border-bottom: 1px solid gray;
+    color: rgb(50, 50, 50);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .productImage{
+    object-fit: cover;
+    height:20%;
+    width:20%;
+    padding-bottom: 2%;
+    margin-right:7%;
+    margin-top:3%;
+}
+.cartProducts{
+    width:100%;
+ 
+}
+.total{
+
+    text-align: center;
+    padding:1%;
+    font-family: Calibri, serif;
+    font-size: 1.2vw; 
+}
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(127, 127, 127);
+}
+.productTitle{
+    font-family: Calibri, serif;
+    font-size: 1vw; 
+
+    color: rgb(50, 50, 50);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.quantity{
+    font-size: 0.8vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-right:5%;
+    margin-left:2%;
+    width:20%;
+    text-align: center;
+}
+.button{
+ width:70%;
+ padding: 0.5vw;
+display: flex;
+justify-content: center;
+  margin-left:20%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  background:none;
+cursor: pointer;
+}
+
+
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .cartContainer{
+
+
+        width: 50vw;
+        box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.534);
+        position:fixed;
+        background-color: beige;
+        left:0;
+        top:4%;
+        border-radius: 2%;
+        z-index: 999;
+        }
+        
+        
+        
+        .cartHeader {
+            font-family: Calibri, serif;
+            font-size: 4.5vw; 
+            border-bottom: 1px solid gray;
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .productImage{
+            object-fit: cover;
+            height:20%;
+            width:20%;
+            padding-bottom: 2%;
+            margin-right:7%;
+            margin-top:3%;
+        }
+        .cartProducts{
+            width:100%;
+         
+        }
+        .total{
+        
+            text-align: center;
+            padding:1%;
+            font-family: Calibri, serif;
+            font-size: 4.2vw; 
+        }
+        .row{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            border-bottom: 1px solid rgb(127, 127, 127);
+        }
+        .productTitle{
+            font-family: Calibri, serif;
+            font-size: 3vw; 
+        
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+        }
+        .quantity{
+            font-size: 2.8vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+            margin-right:5%;
+            margin-left:2%;
+            width:30%;
+            text-align: center;
+        }
+        .button{
+         width:70%;
+         padding: 0.5vw;
+        display: flex;
+        justify-content: center;
+       
+          margin-top: 3%;
+          margin-bottom: 2%;
+          background:none;
+        cursor: pointer;
+        }
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .cartContainer{
+
+
+        width: 30vw;
+        box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.534);
+        position:fixed;
+        background-color: beige;
+        left:0;
+        top:6%;
+        border-radius: 2%;
+        
+        }
+        
+        
+        
+        .cartHeader {
+            font-family: Calibri, serif;
+            font-size: 3.5vw; 
+            border-bottom: 1px solid gray;
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .productImage{
+            object-fit: cover;
+            height:20%;
+            width:20%;
+            padding-bottom: 2%;
+            margin-right:7%;
+            margin-top:3%;
+        }
+        .cartProducts{
+            width:100%;
+         
+        }
+        .total{
+        
+            text-align: center;
+            padding:1%;
+            font-family: Calibri, serif;
+            font-size: 3.2vw; 
+        }
+        .row{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            border-bottom: 1px solid rgb(127, 127, 127);
+        }
+        .productTitle{
+            font-family: Calibri, serif;
+            font-size: 2vw; 
+        
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+        }
+        .quantity{
+            font-size: 1.8vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+            margin-right:5%;
+            margin-left:2%;
+            width:30%;
+            text-align: center;
+        }
+        .button{
+         width:70%;
+         padding: 0.5vw;
+        display: flex;
+        justify-content: center;
+       
+          margin-top: 3%;
+          margin-bottom: 2%;
+          background:none;
+        cursor: pointer;
+        }
+}
+
+@media only screen and (min-width: 720px) and (max-width:850px) {
+    .cartContainer{
+
+
+        width: 25vw;
+        box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.534);
+        position:fixed;
+        background-color: beige;
+        left:0;
+        top:4%;
+        border-radius: 2%;
+        
+        }
+        
+        
+        
+        .cartHeader {
+            font-family: Calibri, serif;
+            font-size: 2.5vw; 
+            border-bottom: 1px solid gray;
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .productImage{
+            object-fit: cover;
+            height:20%;
+            width:20%;
+            padding-bottom: 2%;
+            margin-right:7%;
+            margin-top:3%;
+        }
+        .cartProducts{
+            width:100%;
+         
+        }
+        .total{
+        
+            text-align: center;
+            padding:1%;
+            font-family: Calibri, serif;
+            font-size: 2.2vw; 
+        }
+        .row{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            border-bottom: 1px solid rgb(127, 127, 127);
+        }
+        .productTitle{
+            font-family: Calibri, serif;
+            font-size: 1.5vw; 
+        
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+        }
+        .quantity{
+            font-size: 1.2vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+            margin-right:5%;
+            margin-left:2%;
+            width:30%;
+            text-align: center;
+        }
+        .button{
+         width:70%;
+         padding: 0.5vw;
+        display: flex;
+        justify-content: center;
+       
+          margin-top: 3%;
+          margin-bottom: 2%;
+          background:none;
+        cursor: pointer;
+        }
+}
+
+@media only screen and (min-width: 850px) and (max-width:1020px) {
+    .cartContainer{
+
+
+        width: 25vw;
+        box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.534);
+        position:fixed;
+        background-color: beige;
+        left:0;
+        top:4%;
+        border-radius: 2%;
+        
+        }
+        
+        
+        
+        .cartHeader {
+            font-family: Calibri, serif;
+            font-size: 2.5vw; 
+            border-bottom: 1px solid gray;
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .productImage{
+            object-fit: cover;
+            height:20%;
+            width:20%;
+            padding-bottom: 2%;
+            margin-right:7%;
+            margin-top:3%;
+        }
+        .cartProducts{
+            width:100%;
+         
+        }
+        .total{
+        
+            text-align: center;
+            padding:1%;
+            font-family: Calibri, serif;
+            font-size: 2.2vw; 
+        }
+        .row{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            border-bottom: 1px solid rgb(127, 127, 127);
+        }
+        .productTitle{
+            font-family: Calibri, serif;
+            font-size: 1.5vw; 
+        
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+        }
+        .quantity{
+            font-size: 1.2vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+            margin-right:5%;
+            margin-left:2%;
+            width:30%;
+            text-align: center;
+        }
+        .button{
+         width:70%;
+         padding: 0.5vw;
+        display: flex;
+        justify-content: center;
+       
+          margin-top: 3%;
+          margin-bottom: 2%;
+          background:none;
+        cursor: pointer;
+        }
+}
+@media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .cartContainer{
+
+
+        width: 25vw;
+        box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.534);
+        position:fixed;
+        background-color: beige;
+        left:0;
+        top:4%;
+        border-radius: 2%;
+        
+        }
+        
+        
+        
+        .cartHeader {
+            font-family: Calibri, serif;
+            font-size: 2.5vw; 
+            border-bottom: 1px solid gray;
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .productImage{
+            object-fit: cover;
+            height:20%;
+            width:20%;
+            padding-bottom: 2%;
+            margin-right:7%;
+            margin-top:3%;
+        }
+        .cartProducts{
+            width:100%;
+         
+        }
+        .total{
+        
+            text-align: center;
+            padding:1%;
+            font-family: Calibri, serif;
+            font-size: 2.2vw; 
+        }
+        .row{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            border-bottom: 1px solid rgb(127, 127, 127);
+        }
+        .productTitle{
+            font-family: Calibri, serif;
+            font-size: 1.5vw; 
+        
+            color: rgb(50, 50, 50);
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+        }
+        .quantity{
+            font-size: 1.2vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+            margin-right:5%;
+            margin-left:2%;
+            width:30%;
+            text-align: center;
+        }
+        .button{
+         width:70%;
+         padding: 0.5vw;
+        display: flex;
+        justify-content: center;
+       
+          margin-top: 3%;
+          margin-bottom: 2%;
+          background:none;
+        cursor: pointer;
+        }
+}

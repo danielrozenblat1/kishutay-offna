@@ -1,0 +1,56 @@
+.image-text-header {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    color: transparent;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    padding-top:4%;
+    width: 60%; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:  Calibri;
+  }
+
+  .error{
+    font-size: 10vw;
+    color:rgb(3, 3, 3);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-family:  Calibri;
+  }
+  .background{
+    background-color:rgb(220, 116, 116);
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+  }
+  .explain{
+    font-size: 3vh;
+    color:rgb(3, 3, 3);
+
+    padding-bottom: 5%;
+    font-family:  Calibri;
+    width:30%;
+    margin:0 auto;
+    text-align: center;
+  }
+  .button{
+    cursor: pointer;
+    padding:1vw 3vw;
+    color:white;
+    background-color: rgb(255, 159, 159);
+    border:1px solid white;
+    border-radius: 1vw;
+    font-family:  Calibri;
+    font-size:1.5vw;
+  }
+  .center{
+    text-align: center;
+  }

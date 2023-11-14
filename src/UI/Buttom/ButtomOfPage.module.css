@@ -1,0 +1,426 @@
+.down{
+
+    width:100%;
+    background-color:rgb(255, 223, 174)
+}
+.logo{
+background: rgb(48, 45, 45);
+height:3vw;
+width:3vw;
+border-radius: 100%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+color:rgb(209, 173, 255);
+
+
+}
+.littleLogo{
+    font-size: 1.5vw;
+}
+.logoText{
+    text-decoration: none;
+ margin:0.5%;
+
+}
+.bigLogo{
+    background:  rgb(48, 45, 45);
+    height:5vw;
+    width:5vw;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(209, 173, 255);
+    
+    }
+
+.text{
+    color:rgb(59, 59, 59);
+    font-size: 1.25vw;
+    font-family: Calibri;
+    padding:1%;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.image{
+    display: flex;
+position: absolute;
+right:0;
+margin-top:3%;
+margin-right:1%;
+height:8vw
+}
+.a{
+    margin:0.5%;
+  
+}
+.left{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+   left:0;
+   margin-left: 5%;
+color:rgb(84, 83, 83);
+font-family: Calibri;
+font-size: 1.55vw;
+
+}
+@media only screen and (min-width: 413px) and (max-width: 720px) {
+    .logo{
+        background: rgb(48, 45, 45);
+        height:5vw;
+        width:5vw;
+        border-radius: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(209, 173, 255);
+        
+        }
+        .littleLogo{
+            font-size:2.5vw;
+        }
+        .bigLogo{
+            background:  rgb(48, 45, 45);
+            height:9vw;
+            width:9vw;
+            border-radius: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:rgb(209, 173, 255);
+            
+            }
+            .logoText{
+                text-decoration: none;
+             margin:0.5%;
+             font-size:1.8vw;
+            }
+        .a {
+            margin:0.5%;
+            font-size: 2.25vw;
+            text-decoration: none;
+        }
+        .text{
+            color:rgb(59, 59, 59);
+            font-size: 2.5vw;
+            font-family: Calibri;
+            padding:1%;
+            text-align: center;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .image{
+            display: flex;
+        position: absolute;
+        right:0;
+        margin-top:1%;
+        margin-right:3%;
+        height:8vw
+        }
+        .left{
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+           left:0;
+           margin-left: 5%;
+        color:rgb(84, 83, 83);
+        font-family: Calibri;
+        font-size: 2.25vw;
+        
+        }
+  }
+  @media only screen and (min-width: 220px) and (max-width:413px) {
+    .logo{
+        background: rgb(48, 45, 45);
+        height:5vw;
+        width:5vw;
+        border-radius: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(209, 173, 255);
+        
+        }
+    
+    .littleLogo{
+        font-size:2.7vw;
+    }
+        
+        .bigLogo{
+            background:  rgb(48, 45, 45);
+            height:9vw;
+            width:9vw;
+            border-radius: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:rgb(209, 173, 255);
+            
+            }
+            .logoText{
+                text-decoration: none;
+             margin:0.5%;
+             font-size:1.8vw;
+            }
+        .a {
+            margin:0.5%;
+            font-size: 3vw;
+            text-decoration: none;
+        }
+        .text{
+            color:rgb(59, 59, 59);
+            font-size: 2.5vw;
+            font-family: Calibri;
+            padding:1%;
+            text-align: center;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .image{
+            display: flex;
+        position: absolute;
+        right:0;
+        margin-top:1%;
+        margin-right:3%;
+        height:8vw
+        }
+        .left{
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+           left:0;
+           margin-left: 5%;
+        color:rgb(84, 83, 83);
+        font-family: Calibri;
+        font-size: 2.25vw;
+        
+        }
+  }
+  @media only screen and (min-width: 721px) and (max-width:850px) {
+    .logo{
+        background: rgb(48, 45, 45);
+        height:5vw;
+        width:5vw;
+        border-radius: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(209, 173, 255);
+        
+        }
+        .littleLogo{
+            font-size:2.5vw;
+        }
+        .bigLogo{
+            background:  rgb(48, 45, 45);
+            height:9vw;
+            width:9vw;
+            border-radius: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:rgb(209, 173, 255);
+            
+            }
+            .logoText{
+                text-decoration: none;
+             margin:0.5%;
+             font-size:1.8vw;
+            }
+        .a {
+            margin:0.5%;
+            font-size: 2.25vw;
+            text-decoration: none;
+        }
+        .text{
+            color:rgb(59, 59, 59);
+            font-size: 2.25vw;
+            font-family: Calibri;
+            padding:1%;
+            text-align: center;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .image{
+            display: flex;
+        position: absolute;
+        right:0;
+        margin-top:1%;
+        margin-right:3%;
+        height:8vw
+        }
+        .left{
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+           left:0;
+           margin-left: 5%;
+        color:rgb(84, 83, 83);
+        font-family: Calibri;
+        font-size: 2.25vw;
+        
+        }
+  }
+  @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .logo{
+        background: rgb(48, 45, 45);
+        height:5vw;
+        width:5vw;
+        border-radius: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(209, 173, 255);
+        
+        }
+        .littleLogo{
+            font-size:2.2vw;
+        }
+        .bigLogo{
+            background:  rgb(48, 45, 45);
+            height:9vw;
+            width:9vw;
+            border-radius: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:rgb(209, 173, 255);
+            
+            }
+            .logoText{
+                text-decoration: none;
+             margin:0.5%;
+             font-size:1.8vw;
+            }
+        .a {
+            margin:0.5%;
+            font-size: 2.25vw;
+            text-decoration: none;
+        }
+        .text{
+            color:rgb(59, 59, 59);
+            font-size: 2.25vw;
+            font-family: Calibri;
+            padding:1%;
+            text-align: center;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .image{
+            display: flex;
+        position: absolute;
+        right:0;
+        margin-top:1%;
+        margin-right:3%;
+        height:8vw
+        }
+        .left{
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+           left:0;
+           margin-left: 5%;
+        color:rgb(84, 83, 83);
+        font-family: Calibri;
+        font-size: 2.25vw;
+        
+        }
+  }
+  @media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .logo{
+        background: rgb(48, 45, 45);
+        height:5vw;
+        width:5vw;
+        border-radius: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(209, 173, 255);
+        
+        }
+        .littleLogo{
+            font-size:2vw;
+        }
+        .bigLogo{
+            background:  rgb(48, 45, 45);
+            height:9vw;
+            width:9vw;
+            border-radius: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:rgb(209, 173, 255);
+            
+            }
+            .logoText{
+                text-decoration: none;
+             margin:0.5%;
+             font-size:1.8vw;
+            }
+        .a {
+            margin:0.5%;
+            font-size: 2.25vw;
+            text-decoration: none;
+        }
+        .text{
+            color:rgb(59, 59, 59);
+            font-size: 2.25vw;
+            font-family: Calibri;
+            padding:1%;
+            text-align: center;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .image{
+            display: flex;
+        position: absolute;
+        right:0;
+        margin-top:1%;
+        margin-right:3%;
+        height:8vw
+        }
+        .left{
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+           left:0;
+           margin-left: 5%;
+        color:rgb(84, 83, 83);
+        font-family: Calibri;
+        font-size: 2.25vw;
+        
+        }
+  }

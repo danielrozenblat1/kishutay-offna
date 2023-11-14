@@ -1,0 +1,988 @@
+.header{
+    font-size: 8.5vh;
+    font-family:Calibri;
+    -webkit-text-stroke: 0.1vw black;
+    font-weight: bold;
+    color:#ffffff;
+    text-align: center;
+    margin-top:2%;
+    border-bottom: 0.2px solid rgb(133, 131, 131);
+    margin-bottom: 3%;
+    }
+    .how{
+        font-size: 3vh;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw rgb(1, 1, 1);
+        font-weight: bold;
+        color:#000000;
+        text-align: center;
+        margin:5vh auto
+    }
+    .min{
+        font-size: 3vh;
+        font-family:Calibri;
+
+        font-weight: bold;
+        color:#000000;
+        text-align:center;
+        margin-top:2%;
+line-height: 3;
+        margin-bottom: 3%;
+    }
+    .ways{
+ width:100%;
+ display: flex;
+ justify-content: flex-end;
+
+    }
+.select{
+        width:28%;
+        padding:1.5vh 2vh;
+        margin:0 auto;
+         font-family:Calibri;
+        font-size: 2.5vh;
+        background-color: rgba(239, 255, 222, 0.638);
+        margin-bottom: 5%;
+}
+
+.option{
+    font-family:Calibri;
+    text-align: center;
+    font-size: 2.5vh;
+}
+.yourOrder{
+height:100%;
+width:50vh;
+margin:0 auto;
+box-shadow: 0vh 0.5vh 0.5vh 1vh rgba(170, 170, 170, 0.4);
+border-radius: 5vh;
+background-color: #f5f5f5;
+margin-bottom: 3%;
+}
+.summary{
+    text-align: center;
+    padding:7%;
+ 
+    font-size: 4.5vh;
+    border-bottom: 1px solid gray;
+    font-family:Calibri;
+    -webkit-text-stroke: 0.1vw black;
+    font-weight: bold;
+    color:#ffffff;
+}
+.totals{
+    text-align: right;
+    padding:7%;
+    font-family:Calibri;
+    font-size: 2.5vh;
+    font-weight: lighter;
+    border-bottom: 1px solid gray;
+
+}
+.price{
+    text-align: center;
+    padding-top:10%;
+    padding-bottom: 15%;
+    font-family:Calibri;
+    font-size: 3.5vh;
+    font-weight: lighter;
+    border-top: 1px solid gray; 
+}
+.button{
+    padding:1.5vh 5vh;
+    border-radius: 2vh;
+    border:none;
+    box-shadow: 0vh 0.1vh 0.1vh 0.2vh rgba(170, 170, 170, 0.4);
+    cursor: pointer;
+    font-size: 2.5vh;
+     font-family:Calibri;
+}
+.centered{
+    text-align: center;
+    margin:0 auto;
+    padding-top:10%;
+}
+.minForOrder{
+    text-align: center;
+    font-size: 2.5vh;
+    color: #000000;
+    line-height: 2;
+     font-family:Calibri;
+}
+.clientDetails{
+    display: flex;
+    flex-direction: row;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+margin-right:10%;
+}
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.textInput{
+    padding:1.2vh 3vh;
+    margin:3%;
+    border:1px solid  rgb(91, 59, 0);
+    text-align: right;
+    direction: rtl;
+}
+.numbersInput{
+    padding:1.2vh 3vh;
+    margin:3%;
+    border:1px solid rgb(91, 59, 0);
+    text-align: right;
+    direction: rtl;
+}
+.details{
+    font-size: 4.5vh;
+    font-family:Calibri;
+    -webkit-text-stroke: 0.1vw black;
+    font-weight: bold;
+    color:#ffffff;
+    text-align: center;
+    margin-top:2%;
+    border-bottom: 0.2px solid rgb(133, 131, 131);
+    margin-bottom: 3%;
+}
+
+.paid{
+    text-align: center;
+    font-family:Calibri;
+    font-size: 3.5vh;
+}
+
+
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .header{
+        font-size: 8.5vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+        margin-top:2%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+        margin-bottom: 3%;
+        }
+        .how{
+            font-size: 4vw;
+            font-family:Calibri;
+            -webkit-text-stroke: 0.1vw rgb(1, 1, 1);
+            font-weight: bold;
+            color:#000000;
+            text-align: center;
+            margin-top:2%;
+            margin-right:5%;
+            margin-bottom: 3%;
+        }
+        .min{
+            font-size: 4vw;
+            font-family:Calibri;
+    
+            font-weight: bold;
+            color:#000000;
+            text-align:center;
+            margin-top:2%;
+    line-height: 3;
+            margin-bottom: 3%;
+        }
+        .ways{
+     width:100%;
+     display: flex;
+     justify-content: flex-end;
+    
+        }
+    .select{
+            width:85%;
+            padding:1.5vh 2vh;
+            margin:0 auto;
+             font-family:Calibri;
+            font-size: 4vw;
+            background-color: rgba(239, 255, 222, 0.638);
+            margin-bottom: 5%;
+    }
+    
+    .option{
+     font-family:Calibri;
+        text-align: center;
+        font-size: 3.5vw;
+        margin:0 auto;
+        direction: rtl;
+    }
+    .yourOrder{
+    height:100%;
+    width:65vw;
+    margin:0 auto;
+    box-shadow: 0vh 0.5vh 0.5vh 1vh rgba(170, 170, 170, 0.4);
+    border-radius: 5vh;
+    background-color: #f5f5f5;
+    margin-bottom: 3%;
+    }
+    .summary{
+        text-align: center;
+        padding:7%;
+     
+        font-size: 6.5vw;
+        border-bottom: 1px solid gray;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+    }
+    .totals{
+        text-align: right;
+        padding:7%;
+         font-family:Calibri;
+        font-size: 4.5vw;
+        font-weight: lighter;
+        border-bottom: 1px solid gray;
+    
+    }
+    .price{
+        text-align: center;
+        padding-top:10%;
+        padding-bottom: 15%;
+         font-family:Calibri;
+        font-size: 5.5vw;
+        font-weight: lighter;
+        border-top: 1px solid gray; 
+    }
+    .button{
+        padding:2vw 6vw;
+        border-radius: 2vw;
+        border:none;
+        box-shadow: 0vh 0.1vh 0.1vh 0.2vh rgba(170, 170, 170, 0.4);
+        cursor: pointer;
+        font-size: 4.5vw;
+        font-family:Calibri;
+        margin-bottom: 2vw;
+    }
+    .centered{
+        text-align: center;
+        margin:0 auto;
+      
+    }
+    .minForOrder{
+        text-align: center;
+        font-size: 3.5vw;
+        color: #000000;
+        line-height: 2;
+        font-family:Calibri;
+    }
+    .clientDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+         margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .textInput{
+        padding:3vw 8vw;
+        margin:2.5vw auto;
+        border:1px solid  rgb(91, 59, 0);
+        border-radius: 2vw;
+        text-align: right;
+        direction: rtl;
+    }
+    .numbersInput{
+        padding:3vw 8vw;
+        margin:2.5vw auto;
+        border:1px solid rgb(91, 59, 0);
+        border-radius: 2vw;
+        text-align: right;
+        direction: rtl;
+    }
+    .details{
+        font-size: 7.5vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+    
+        width:100%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+       
+    }
+    
+    .paid{
+        text-align: center;
+        font-family:Calibri;
+        font-size: 3.5vh;
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .header{
+        font-size: 6.5vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+        margin-top:2%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+        margin-bottom: 3%;
+        }
+        .how{
+            font-size: 3.5vw;
+            font-family:Calibri;
+            -webkit-text-stroke: 0.1vw rgb(1, 1, 1);
+            font-weight: bold;
+            color:#000000;
+            text-align: center;
+            margin:2vw auto;
+        }
+        .min{
+            font-size: 3vw;
+            font-family:Calibri;
+    
+            font-weight: bold;
+            color:#000000;
+            text-align:center;
+            margin-top:2%;
+    line-height: 3;
+            margin-bottom: 3%;
+        }
+        .ways{
+     width:100%;
+     display: flex;
+     justify-content: flex-end;
+    
+        }
+    .select{
+            width:60%;
+            padding:1.5vh 2vh;
+            margin:0 auto;
+             font-family:Calibri;
+            font-size: 2.5vw;
+            background-color: rgba(239, 255, 222, 0.638);
+            margin-bottom: 5%;
+            text-align:center
+    }
+    
+    .option{
+        font-family:Calibri;
+        text-align: center;
+        font-size: 2.5vw;
+        margin:0 auto;
+        direction: rtl;
+        
+    }
+    .yourOrder{
+    height:100%;
+    width:45vw;
+    margin:0 auto;
+    box-shadow: 0vh 0.5vh 0.5vh 1vh rgba(170, 170, 170, 0.4);
+    border-radius: 5vh;
+    background-color: #f5f5f5;
+    margin-bottom: 3%;
+    }
+    .summary{
+        text-align: center;
+        padding:7%;
+     
+        font-size: 6vw;
+        border-bottom: 1px solid gray;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+    }
+    .totals{
+        text-align: right;
+        padding:7%;
+         font-family:Calibri;
+        font-size: 3vw;
+        font-weight: lighter;
+        border-bottom: 1px solid gray;
+    
+    }
+    .price{
+        text-align: center;
+        padding-top:10%;
+        padding-bottom: 15%;
+         font-family:Calibri;
+        font-size: 4vw;
+        font-weight: lighter;
+        border-top: 1px solid gray; 
+    }
+    .button{
+        padding:2vw 5vw;
+        border-radius: 2vw;
+        border:none;
+        box-shadow: 0vh 0.1vh 0.1vh 0.2vh rgba(170, 170, 170, 0.4);
+        cursor: pointer;
+        font-size:3vw;
+        font-family:Calibri;
+        margin-bottom: 2vw;
+    }
+    .centered{
+        text-align: center;
+        margin:0 auto;
+      
+    }
+    .minForOrder{
+        text-align: center;
+        font-size: 3.5vw;
+        color: #000000;
+        line-height: 2;
+        font-family:Calibri;
+    }
+    .clientDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+         margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .textInput{
+        padding:2.5vw 7vw;
+        margin:2.5vw auto;
+        border:1px solid  rgb(91, 59, 0);
+        border-radius: 1vw;
+        text-align: right;
+        direction: rtl;
+    }
+    .numbersInput{
+        padding:2.5vw 7vw;
+        margin:2.5vw auto;
+        border:1px solid rgb(91, 59, 0);
+        border-radius: 1vw;
+        text-align: right;
+        direction: rtl;
+    }
+    .details{
+        font-size: 5.5vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+    
+        width:100%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+       
+    }
+    
+    .paid{
+        text-align: center;
+        font-family:Calibri;
+        font-size: 3.5vh;
+    }
+ }
+
+ @media only screen and (min-width: 720px) and (max-width:850px) {
+    .header{
+        font-size: 5.5vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+        margin-top:2%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+        margin-bottom: 3%;
+        }
+        .how{
+            font-size: 3vw;
+            font-family:Calibri;
+            -webkit-text-stroke: 0.1vw rgb(1, 1, 1);
+            font-weight: bold;
+            color:#000000;
+            text-align: center;
+         margin:2vw auto;
+        }
+        .min{
+            font-size: 3vw;
+            font-family:Calibri;
+    
+            font-weight: bold;
+            color:#000000;
+            text-align:center;
+            margin-top:2%;
+    line-height: 3;
+            margin-bottom: 3%;
+        }
+        .ways{
+     width:100%;
+     display: flex;
+     justify-content: flex-end;
+    
+        }
+    .select{
+            width:50%;
+            padding:1.5vh 2vh;
+            margin:0 auto;
+             font-family:Calibri;
+            font-size: 2vw;
+            background-color: rgba(239, 255, 222, 0.638);
+            margin-bottom: 5%;
+            text-align:center;
+           
+    }
+    
+    .option{
+        font-family:Calibri;
+        text-align: center;
+        font-size: 2vw;
+        margin:0 auto;
+        direction: rtl;
+        
+    }
+    .yourOrder{
+    height:100%;
+    width:45vw;
+    margin:0 auto;
+    box-shadow: 0vh 0.5vh 0.5vh 1vh rgba(170, 170, 170, 0.4);
+    border-radius: 5vh;
+    background-color: #f5f5f5;
+    margin-bottom: 3%;
+    }
+    .summary{
+        text-align: center;
+        padding:7%;
+     
+        font-size: 4.5vw;
+        border-bottom: 1px solid gray;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+    }
+    .totals{
+        text-align: right;
+        padding:7%;
+         font-family:Calibri;
+        font-size: 2.5vw;
+        font-weight: lighter;
+        border-bottom: 1px solid gray;
+    
+    }
+    .price{
+        text-align: center;
+        padding-top:10%;
+        padding-bottom: 15%;
+         font-family:Calibri;
+        font-size: 3.5vw;
+        font-weight: lighter;
+        border-top: 1px solid gray; 
+    }
+    .button{
+        padding:2vw 5vw;
+        border-radius: 2vw;
+        border:none;
+        box-shadow: 0vh 0.1vh 0.1vh 0.2vh rgba(170, 170, 170, 0.4);
+        cursor: pointer;
+        font-size:2.5vw;
+        font-family:Calibri;
+        margin-bottom: 2vw;
+    }
+    .centered{
+        text-align: center;
+        margin:0 auto;
+      
+    }
+    .minForOrder{
+        text-align: center;
+        font-size: 2.5vw;
+        color: #000000;
+        line-height: 2;
+        font-family:Calibri;
+    }
+    .clientDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+         margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .textInput{
+        padding:2vw 6vw;
+        margin:2.5vw auto;
+        border:1px solid  rgb(91, 59, 0);
+        border-radius: 1vw;
+        text-align: right;
+        font-size: 2vw;
+        direction: rtl;
+    }
+    .numbersInput{
+        padding:2vw 6vw;
+        margin:2.5vw auto;
+        border:1px solid rgb(91, 59, 0);
+        border-radius: 1vw;
+        text-align: right;
+        font-size: 2vw;
+        direction: rtl;
+    }
+    .details{
+        font-size: 5vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+    
+        width:100%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+       
+    }
+    
+    .paid{
+        text-align: center;
+        font-family:Calibri;
+        font-size: 3.5vh;
+    }
+ }
+ @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .header{
+        font-size: 4.5vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+        margin-top:2%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+        margin-bottom: 3%;
+        }
+        .how{
+            font-size: 2.2vw;
+            font-family:Calibri;
+            -webkit-text-stroke: 0.1vw rgb(1, 1, 1);
+            font-weight: bold;
+            color:#000000;
+            text-align: center;
+         margin:2vw auto;
+        }
+        .min{
+            font-size: 2vw;
+            font-family:Calibri;
+    
+            font-weight: bold;
+            color:#000000;
+            text-align:center;
+            margin-top:2%;
+    line-height: 3;
+            margin-bottom: 3%;
+        }
+        .ways{
+     width:100%;
+     display: flex;
+     justify-content: flex-end;
+    
+        }
+    .select{
+            width:40%;
+            padding:1.5vh 2vh;
+            margin:0 auto;
+             font-family:Calibri;
+            font-size: 1.8vw;
+            background-color: rgba(239, 255, 222, 0.638);
+            margin-bottom: 5%;
+            text-align:center
+    }
+    
+    .option{
+        font-family:Calibri;
+        text-align: center;
+        font-size: 2vw;
+        margin:0 auto;
+        direction: rtl;
+    }
+    .yourOrder{
+    height:100%;
+    width:40vw;
+    margin:0 auto;
+    box-shadow: 0vh 0.5vh 0.5vh 1vh rgba(170, 170, 170, 0.4);
+    border-radius: 5vh;
+    background-color: #f5f5f5;
+    margin-bottom: 3%;
+    }
+    .summary{
+        text-align: center;
+        padding:7%;
+     
+        font-size: 4vw;
+        border-bottom: 1px solid gray;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+    }
+    .totals{
+        text-align: right;
+        padding:7%;
+         font-family:Calibri;
+        font-size: 2vw;
+        font-weight: lighter;
+        border-bottom: 1px solid gray;
+    
+    }
+    .price{
+        text-align: center;
+        padding-top:10%;
+        padding-bottom: 15%;
+         font-family:Calibri;
+        font-size: 3vw;
+        font-weight: lighter;
+        border-top: 1px solid gray; 
+    }
+    .button{
+        padding:2vw 5vw;
+        border-radius: 2vw;
+        border:none;
+        box-shadow: 0vh 0.1vh 0.1vh 0.2vh rgba(170, 170, 170, 0.4);
+        cursor: pointer;
+        font-size:2vw;
+        font-family:Calibri;
+        margin-bottom: 2vw;
+    }
+    .centered{
+        text-align: center;
+        margin:0 auto;
+      
+    }
+    .minForOrder{
+        text-align: center;
+        font-size: 2.5vw;
+        color: #000000;
+        line-height: 2;
+        font-family:Calibri;
+    }
+    .clientDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+         margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .textInput{
+        padding:2vw 5vw;
+        margin:2.5vw auto;
+        border:1px solid  rgb(91, 59, 0);
+        border-radius: 1vw;
+        text-align: right;
+        font-size: 2vw;
+        direction: rtl;
+    }
+    .numbersInput{
+        padding:2vw 5vw;
+        margin:2.5vw auto;
+        border:1px solid rgb(91, 59, 0);
+        border-radius: 1vw;
+        text-align: right;
+        font-size: 2vw;
+        direction: rtl;
+    }
+    .details{
+        font-size: 4vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+    
+        width:100%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+       
+    }
+    
+    .paid{
+        text-align: center;
+        font-family:Calibri;
+        font-size: 3.5vh;
+    }
+ }
+ @media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .header{
+        font-size: 4vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+        margin-top:2%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+        margin-bottom: 3%;
+        }
+        .how{
+            font-size: 2vw;
+            font-family:Calibri;
+            -webkit-text-stroke: 0.1vw rgb(1, 1, 1);
+            font-weight: bold;
+            color:#000000;
+            text-align: center;
+         margin:2vw auto;
+        }
+        .min{
+            font-size: 2vw;
+            font-family:Calibri;
+    
+            font-weight: bold;
+            color:#000000;
+            text-align:center;
+            margin-top:2%;
+    line-height: 3;
+            margin-bottom: 3%;
+        }
+        .ways{
+     width:100%;
+     display: flex;
+     justify-content: flex-end;
+    
+        }
+    .select{
+            width:40%;
+            padding:1.5vh 2vh;
+            margin:0 auto;
+             font-family:Calibri;
+            font-size: 1.5vw;
+            background-color: rgba(239, 255, 222, 0.638);
+            margin-bottom: 5%;
+            text-align:center
+    }
+    
+    .option{
+        font-family:Calibri;
+        text-align: center;
+        font-size: 1.5vw;
+        margin:0 auto;
+        direction: rtl;
+    }
+    .yourOrder{
+    height:100%;
+    width:35vw;
+    margin:0 auto;
+    box-shadow: 0vh 0.5vh 0.5vh 1vh rgba(170, 170, 170, 0.4);
+    border-radius: 5vh;
+    background-color: #f5f5f5;
+    margin-bottom: 3%;
+    }
+    .summary{
+        text-align: center;
+        padding:7%;
+     
+        font-size: 3.2vw;
+        border-bottom: 1px solid gray;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+    }
+    .totals{
+        text-align: right;
+        padding:7%;
+         font-family:Calibri;
+        font-size: 1.5vw;
+        font-weight: lighter;
+        border-bottom: 1px solid gray;
+    
+    }
+    .price{
+        text-align: center;
+        padding-top:10%;
+        padding-bottom: 15%;
+         font-family:Calibri;
+        font-size: 2.2vw;
+        font-weight: lighter;
+        border-top: 1px solid gray; 
+    }
+    .button{
+        padding:2vw 4.5vw;
+        border-radius: 2vw;
+        border:none;
+        box-shadow: 0vh 0.1vh 0.1vh 0.2vh rgba(170, 170, 170, 0.4);
+        cursor: pointer;
+        font-size:1.5vw;
+        font-family:Calibri;
+        margin-bottom: 2vw;
+    }
+    .centered{
+        text-align: center;
+        margin:0 auto;
+      
+    }
+    .minForOrder{
+        text-align: center;
+        font-size: 2vw;
+        color: #000000;
+        line-height: 2;
+        font-family:Calibri;
+    }
+    .clientDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+         margin:0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .textInput{
+        padding:2vw 4.5vw;
+        margin:2.5vw auto;
+        border:1px solid  rgb(91, 59, 0);
+        border-radius: 1vw;
+        text-align: right;
+        font-size: 1.5vw;
+        direction: rtl;
+    }
+    .numbersInput{
+        padding:2vw 4.5vw;
+        margin:2.5vw auto;
+        border:1px solid rgb(91, 59, 0);
+        border-radius: 1vw;
+        text-align: right;
+        font-size: 1.5vw;
+        direction: rtl;
+    }
+    .details{
+        font-size: 3.5vw;
+        font-family:Calibri;
+        -webkit-text-stroke: 0.1vw black;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: center;
+    
+        width:100%;
+        border-bottom: 0.2px solid rgb(133, 131, 131);
+       
+    }
+    
+    .paid{
+        text-align: center;
+        font-family:Calibri;
+        font-size: 3.5vh;
+    }
+ }

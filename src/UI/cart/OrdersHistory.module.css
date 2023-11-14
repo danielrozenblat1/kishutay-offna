@@ -1,0 +1,415 @@
+.notLogged{
+    font-family:  Calibri;
+    font-size: 2vw;
+    color:red;
+text-align: center;
+width:50%;
+margin:0 auto
+}
+.button{
+padding:1vw 3vw;
+margin:0 auto;
+border:1px solid rgba(0, 0, 0, 0.367);
+border-radius: 1vw;
+box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+background: rgb(255, 186, 112);
+text-align: center;
+font-size: 1.25vw;
+font-family: Calibri;
+cursor: pointer;
+margin-top:2vw;
+}
+
+.howMuch{
+    width:35%;
+    font-family: Calibri;
+font-size:2vw;
+text-align: center;
+margin:0 auto;
+padding-top:2vh
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.order{
+
+    background: rgba(145, 149, 132, 0.255);
+    width:26%;
+    border-radius: 1vw;
+    margin: 2vw auto;
+    display: flex;
+    flex-direction: column; /* Arrange content in a column */
+    align-items: center; 
+
+}
+.date{
+    font-family:  Calibri;
+    font-size: 1.55vw;
+    color:rgb(120, 95, 35);   
+    margin-top:1vw;
+
+}
+.productcontainer{
+    width:80%;
+    margin:0.5vw auto;
+    border-top:1px solid gray;
+    
+    text-align: center;
+}
+.productquantity{
+    text-align: center;
+}
+.totalPrice{
+    font-family:  Calibri;
+    font-size: 1.35vw;
+    color:rgb(0, 0, 0);   
+    margin-top:1vw;
+}
+.totalPriceOrder{
+    font-family:  Calibri;
+    font-size: 1.75vw;
+    color:rgb(0, 0, 0);   
+    border-top:1px solid gray;
+    padding-top:0.5vw;
+    padding-bottom:0.5vw;
+    
+}
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .notLogged{
+        font-family:  Calibri;
+        font-size: 6vw;
+        color:red;
+    text-align: center;
+    width:70%;
+    margin:0 auto
+    }
+    .button{
+    padding:2vw 5vw;
+    margin:0 auto;
+    border:1px solid rgba(0, 0, 0, 0.367);
+    border-radius: 1vw;
+    box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+    background: rgb(255, 186, 112);
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: Calibri;
+    cursor: pointer;
+    margin-top:3vw;
+    }
+    
+    .howMuch{
+        width:35%;
+        font-family: Calibri;
+    font-size:5vw;
+    text-align: center;
+    margin:2vw auto;
+   
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+    }
+    .order{
+    
+        background: rgba(145, 149, 132, 0.255);
+        width:48%;
+        border-radius: 1vw;
+        margin: 2vw auto;
+        display: flex;
+        flex-direction: column; /* Arrange content in a column */
+        align-items: center; 
+    
+    }
+    .date{
+        font-family:  Calibri;
+        font-size: 3.55vw;
+        color:rgb(120, 95, 35);   
+        margin-top:1vw;
+    
+    }
+    .productcontainer{
+        width:80%;
+        margin:0.5vw auto;
+        border-top:1px solid gray;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+    .productquantity{
+        text-align: center;
+        font-size: 3.5vw;
+    }
+    .totalPrice{
+        font-family:  Calibri;
+        font-size: 3.65vw;
+        color:rgb(0, 0, 0);   
+        margin-top:1vw;
+        font-weight: bold;
+    }
+    .totalPriceOrder{
+        font-family:  Calibri;
+        font-size: 4.5vw;
+        color:rgb(0, 0, 0);   
+        border-top:1px solid gray;
+        padding-top:0.5vw;
+        padding-bottom:0.5vw;
+        
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .notLogged{
+        font-family:  Calibri;
+        font-size: 3.5vw;
+        color:red;
+    text-align: center;
+    width:70%;
+    margin:0 auto
+    }
+    .button{
+    padding:2vw 4vw;
+    margin:0 auto;
+    border:1px solid rgba(0, 0, 0, 0.367);
+    border-radius: 1vw;
+    box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+    background: rgb(255, 186, 112);
+    text-align: center;
+    font-size: 3vw;
+    font-family: Calibri;
+    cursor: pointer;
+    margin-top:3vw;
+    }
+    
+    .howMuch{
+        width:35%;
+        font-family: Calibri;
+    font-size:4vw;
+    text-align: center;
+    margin:2vw auto;
+   
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+    }
+    .order{
+    
+        background: rgba(145, 149, 132, 0.255);
+        width:48%;
+        border-radius: 1vw;
+        margin: 2vw auto;
+        display: flex;
+        flex-direction: column; /* Arrange content in a column */
+        align-items: center; 
+    
+    }
+    .date{
+        font-family:  Calibri;
+        font-size: 3.1vw;
+        color:rgb(120, 95, 35);   
+        margin-top:1vw;
+    
+    }
+    .productcontainer{
+        width:80%;
+        margin:0.5vw auto;
+        border-top:1px solid gray;
+        font-size: 3vw;
+        text-align: center;
+    }
+    .productquantity{
+        text-align: center;
+        font-size: 3vw;
+    }
+    .totalPrice{
+        font-family:  Calibri;
+        font-size: 3vw;
+        color:rgb(0, 0, 0);   
+        margin-top:1vw;
+        font-weight: bold;
+    }
+    .totalPriceOrder{
+        font-family:  Calibri;
+        font-size: 3.5vw;
+        color:rgb(0, 0, 0);   
+        border-top:1px solid gray;
+        padding-top:0.5vw;
+        padding-bottom:0.5vw;
+        
+    }
+  }
+
+  @media only screen and (min-width: 720px) and (max-width:850px) {
+    .notLogged{
+        font-family:  Calibri;
+        font-size: 3vw;
+        color:red;
+    text-align: center;
+    width:70%;
+    margin:0 auto
+    }
+    .button{
+    padding:2vw 4vw;
+    margin:0 auto;
+    border:1px solid rgba(0, 0, 0, 0.367);
+    border-radius: 1vw;
+    box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+    background: rgb(255, 186, 112);
+    text-align: center;
+    font-size: 2vw;
+    font-family: Calibri;
+    cursor: pointer;
+    margin-top:3vw;
+    }
+    
+    .howMuch{
+        width:35%;
+        font-family: Calibri;
+    font-size:3vw;
+    text-align: center;
+    margin:2vw auto;
+   
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+    }
+    .order{
+    
+        background: rgba(145, 149, 132, 0.255);
+        width:44%;
+        border-radius: 1vw;
+        margin: 2vw auto;
+        display: flex;
+        flex-direction: column; /* Arrange content in a column */
+        align-items: center; 
+    
+    }
+    .date{
+        font-family:  Calibri;
+        font-size: 2.5vw;
+        color:rgb(120, 95, 35);   
+        margin-top:1vw;
+    
+    }
+    .productcontainer{
+        width:80%;
+        margin:0.5vw auto;
+        border-top:1px solid gray;
+        font-size: 2vw;
+        text-align: center;
+    }
+    .productquantity{
+        text-align: center;
+        font-size: 2vw;
+    }
+    .totalPrice{
+        font-family:  Calibri;
+        font-size: 2vw;
+        color:rgb(0, 0, 0);   
+        margin-top:1vw;
+        font-weight: bold;
+    }
+    .totalPriceOrder{
+        font-family:  Calibri;
+        font-size: 2.5vw;
+        color:rgb(0, 0, 0);   
+        border-top:1px solid gray;
+        padding-top:0.5vw;
+        padding-bottom:0.5vw;
+        
+    }
+  }
+  @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .notLogged{
+        font-family:  Calibri;
+        font-size: 2vw;
+        color:red;
+    text-align: center;
+    width:70%;
+    margin:0 auto
+    }
+    .button{
+    padding:1vw 3vw;
+    margin:0 auto;
+    border:1px solid rgba(0, 0, 0, 0.367);
+    border-radius: 1vw;
+    box-shadow:  0.1vw 0.1vw rgba(0, 0, 0, 0.419);
+    background: rgb(255, 186, 112);
+    text-align: center;
+    font-size: 2vw;
+    font-family: Calibri;
+    cursor: pointer;
+    margin-top:3vw;
+    }
+    
+    .howMuch{
+        width:35%;
+        font-family: Calibri;
+    font-size:3vw;
+    text-align: center;
+    margin:2vw auto;
+   
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+    }
+    .order{
+    
+        background: rgba(145, 149, 132, 0.255);
+        width:40%;
+        border-radius: 1vw;
+        margin: 2vw auto;
+        display: flex;
+        flex-direction: column; /* Arrange content in a column */
+        align-items: center; 
+    
+    }
+    .date{
+        font-family:  Calibri;
+        font-size: 2.5vw;
+        color:rgb(120, 95, 35);   
+        margin-top:1vw;
+    
+    }
+    .productcontainer{
+        width:80%;
+        margin:0.5vw auto;
+        border-top:1px solid gray;
+        font-size: 2vw;
+        text-align: center;
+    }
+    .productquantity{
+        text-align: center;
+        font-size: 2vw;
+    }
+    .totalPrice{
+        font-family:  Calibri;
+        font-size: 2vw;
+        color:rgb(0, 0, 0);   
+        margin-top:1vw;
+        font-weight: bold;
+    }
+    .totalPriceOrder{
+        font-family:  Calibri;
+        font-size: 2.5vw;
+        color:rgb(0, 0, 0);   
+        border-top:1px solid gray;
+        padding-top:0.5vw;
+        padding-bottom:0.5vw;
+        
+    }
+  }
+  @media only screen and (min-width: 1020px) and (max-width:1300px) {
+
+  }

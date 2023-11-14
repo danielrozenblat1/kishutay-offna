@@ -1,0 +1,234 @@
+.header{
+    font-size: 6vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    text-align: center;
+    margin-top:5%;
+    margin-bottom: 1%;
+}
+.image{
+    height:25vw;
+    width:25vw;
+    border-radius: 100%;
+border: 2px solid black;
+}
+.text{
+    font-size: 1.25vw;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.subCatProductsHeader{
+    font-size: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    text-align: center;
+    margin-top:2%;
+    margin-bottom: 1%;
+}
+.subCatProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .header{
+        font-size: 6vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:5%;
+        margin-bottom: 1%;
+    }
+    .image{
+    height:40vw;
+    width:40vw;
+        border-radius: 100%;
+    border: 2px solid black;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    
+    }
+    .subCatProductsHeader{
+        font-size: 6vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:2%;
+        margin-bottom: 1%;
+    }
+    .subCatProducts{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .text{
+        font-size: 4vw;
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .header{
+        font-size: 4.5vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:5%;
+        margin-bottom: 1%;
+    }
+    .image{
+    height:35vw;
+    width:35vw;
+        border-radius: 100%;
+    border: 2px solid black;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    
+    }
+    .subCatProductsHeader{
+        font-size: 4.5vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:2%;
+        margin-bottom: 1%;
+    }
+    .subCatProducts{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .text{
+        font-size: 2.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 720px) and (max-width:850px) {
+    .header{
+        font-size: 4.5vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:5%;
+        margin-bottom: 1%;
+    }
+    .image{
+    height:30vw;
+    width:30vw;
+        border-radius: 100%;
+    border: 2px solid black;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    
+    }
+    .subCatProductsHeader{
+        font-size:2.5vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:2%;
+        margin-bottom: 1%;
+    }
+    .subCatProducts{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .text{
+        font-size: 2vw;
+    }
+  }
+  @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .header{
+        font-size: 4.5vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:5%;
+        margin-bottom: 1%;
+    }
+    .image{
+    height:30vw;
+    width:30vw;
+        border-radius: 100%;
+    border: 2px solid black;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    
+    }
+    .subCatProductsHeader{
+        font-size:2.5vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:2%;
+        margin-bottom: 1%;
+    }
+    .subCatProducts{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .text{
+        font-size: 2vw;
+    }
+  }
+  @media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .header{
+        font-size: 3vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:5%;
+        margin-bottom: 1%;
+    }
+    .image{
+    height:30vw;
+    width:30vw;
+        border-radius: 100%;
+    border: 2px solid black;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    
+    }
+    .subCatProductsHeader{
+        font-size:3vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        text-align: center;
+        margin-top:2%;
+        margin-bottom: 1%;
+    }
+    .subCatProducts{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .text{
+        font-size: 1.5vw;
+    }
+  }

@@ -1,0 +1,228 @@
+.button{
+    border-radius: 1vh;
+    border:1px solid rgb(139, 171, 198);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+    background-color:#1b6a6a;
+    color :rgb(229, 252, 229);
+    font-size: 3vh;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    padding:1vh 7vh;
+    cursor: pointer;
+}
+.redIcon{
+    color:red;
+    font-size:3.5vh
+ }
+.button:hover{
+    transform: scale(1.1);
+    color:#1b6a6a;
+    background-color: rgb(206, 255, 183);
+    transition: all ease-out 1s;
+}
+.notAvailable{
+    border-radius: 4vh;
+    background-color: rgb(255, 174, 174);
+border:0.2px solid red;
+font-size: 3vh;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+
+cursor: not-allowed;
+padding:1vh 5vh;
+opacity:0.8;
+}
+.cartIcon{
+    color:white;
+    font-size: 3vh;
+}
+
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .button{
+        border-radius: 1vw;
+        border:1px solid rgb(139, 171, 198);
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+        background-color:#1b6a6a;
+        color :rgb(229, 252, 229);
+        font-size: 3vw;
+        font-weight: lighter;
+        font-family: 'Times New Roman', Times, serif;
+        padding:1.5vw 10vw;
+        cursor: pointer;
+    }
+    .redIcon{
+        color:red;
+        font-size:3vw
+     }
+    .button:hover{
+        transform: scale(1.1);
+        color:#1b6a6a;
+        background-color: rgb(206, 255, 183);
+        transition: all ease-out 1s;
+    }
+    .notAvailable{
+        border-radius: 4vh;
+        background-color: rgb(255, 174, 174);
+    border:0.2px solid red;
+    font-size: 3vw;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    
+    cursor: not-allowed;
+    padding:1.5vw 10vw;
+    opacity:0.8;
+    }
+    .cartIcon{
+        color:white;
+        font-size: 3vw;
+    }
+}
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .button{
+        border-radius: 1vw;
+        border:1px solid rgb(139, 171, 198);
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+        background-color:#1b6a6a;
+        color :rgb(229, 252, 229);
+        font-size: 3vw;
+        font-weight: lighter;
+        font-family: 'Times New Roman', Times, serif;
+        padding:2vw 10vw;
+        cursor: pointer;
+    }
+    .cartIcon{
+        color:white;
+        font-size: 4vw;
+    }
+    .button:hover{
+        transform: scale(1.1);
+        color:#1b6a6a;
+        background-color: rgb(206, 255, 183);
+        transition: all ease-out 1s;
+    }
+    .notAvailable{
+        border-radius: 4vh;
+        background-color: rgb(255, 174, 174);
+    border:0.2px solid red;
+    font-size: 4vw;
+  
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    
+    cursor: not-allowed;
+    padding:1vw 12vw;
+    opacity:0.8;
+    }
+    .redIcon{
+        color:red;
+        font-size: 3vw;
+    }
+}
+@media only screen and (min-width: 721px) and (max-width:850px) {
+    .button{
+        border-radius: 1vw;
+        border:1px solid rgb(139, 171, 198);
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+        background-color:#1b6a6a;
+        color :rgb(229, 252, 229);
+        font-size: 3vw;
+        font-weight: lighter;
+        font-family: 'Times New Roman', Times, serif;
+        padding:1vw 8vw;
+        cursor: pointer;
+    }
+    .button:hover{
+        transform: scale(1.1);
+        color:#1b6a6a;
+        background-color: rgb(206, 255, 183);
+        transition: all ease-out 1s;
+    }
+    .notAvailable{
+        border-radius: 4vh;
+        background-color: rgb(255, 174, 174);
+    border:0.2px solid red;
+    font-size: 3vh;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    
+    cursor: not-allowed;
+    padding:1vw 8vw;
+    opacity:0.8;
+    }
+    .redIcon{
+        color:red;
+        font-size: 3vw;
+    }
+}
+@media only screen and (min-width: 850px) and (max-width:1020px) {
+    .button{
+        border-radius: 1vw;
+        border:1px solid rgb(139, 171, 198);
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+        background-color:#1b6a6a;
+        color :rgb(229, 252, 229);
+        font-size: 2vw;
+        font-weight: lighter;
+        font-family: 'Times New Roman', Times, serif;
+        padding:1vw 8vw;
+        cursor: pointer;
+    }
+    .button:hover{
+        transform: scale(1.1);
+        color:#1b6a6a;
+        background-color: rgb(206, 255, 183);
+        transition: all ease-out 1s;
+    }
+    .notAvailable{
+        border-radius: 4vh;
+        background-color: rgb(255, 174, 174);
+    border:0.2px solid red;
+    font-size: 3vh;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    
+    cursor: not-allowed;
+    padding:1vw 8vw;
+    opacity:0.8;
+    }
+    .redIcon{
+        color:red;
+        font-size: 3vw;
+    }
+}
+@media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .button{
+        border-radius: 1vw;
+        border:1px solid rgb(139, 171, 198);
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+        background-color:#1b6a6a;
+        color :rgb(229, 252, 229);
+        font-size: 1.5vw;
+        font-weight: lighter;
+        font-family: 'Times New Roman', Times, serif;
+        padding:1vw 7vw;
+        cursor: pointer;
+    }
+    .button:hover{
+        transform: scale(1.1);
+        color:#1b6a6a;
+        background-color: rgb(206, 255, 183);
+        transition: all ease-out 1s;
+    }
+    .notAvailable{
+        border-radius: 4vh;
+        background-color: rgb(255, 174, 174);
+    border:0.2px solid red;
+    font-size: 3vh;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    
+    cursor: not-allowed;
+    padding:1vw 6.5vw;
+    opacity:0.8;
+    }
+    .redIcon{
+        color:red;
+        font-size: 3vw;
+    }
+}

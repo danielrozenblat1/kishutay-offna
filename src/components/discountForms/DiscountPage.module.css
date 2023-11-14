@@ -1,0 +1,82 @@
+.header{
+    font-size: 6.5vh;
+    font-family:cursive;
+border-bottom:  1px solid rgb(89, 81, 99);
+text-align: center;
+color:#353736;
+}
+.onWhat{
+    font-size: 3.5vh;
+    font-family:cursive;
+margin-top: 3%;
+text-align: center;  
+}
+.onWhatSelect {
+    border: 2px solid #ccc;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-size: 2vh;
+    background-color: #fff;
+    color: #333;
+    width: 12vw;
+    text-align: center;
+  }
+  
+
+
+.howLong{
+    font-size: 3.5vh;
+    font-family:cursive;
+margin-top: 3%;
+text-align: center;  
+}
+.howLongSelect {
+    border: 2px solid #ccc;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-size: 2vh;
+    background-color: #fff;
+    color: #333;
+    width: 12vw;
+    text-align: center;
+
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    margin-top:3%
+  }
+
+.howMany{
+    font-size: 3.5vh;
+    font-family:cursive;
+margin-top: 3%;
+text-align: center;  
+}
+.howManyInput{
+    border: 2px solid #ccc;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-size: 2vh;
+    background-color: #fff;
+    color: #333;
+    width: 10vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.productForm{
+  display: flex;
+  justify-content: center;
+  margin-top:3%;
+  margin-bottom: 3%;
+}
+.button{
+  margin-top: 1%;
+  margin-bottom: 5%;
+  padding:1vh 4vh;
+  cursor: pointer;
+  border:none;
+  border-radius: 1vh;
+
+}

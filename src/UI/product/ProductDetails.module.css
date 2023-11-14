@@ -1,0 +1,1074 @@
+.productHeader{
+    font-size: 4vh;
+
+    text-align: right;
+    margin-top: 2%;
+    font-family: Calibri;
+    padding-bottom: 1%;
+}
+.productImage{
+    width:100%;
+    height:70vh;
+}
+.productAvailable{
+    text-align: right;
+    margin-top: 2%;
+    font-family: Calibri; 
+    color:green;
+    font-size: 3vh;
+}
+.productNotAvailable{
+    text-align: right;
+    margin-top: 2%;
+    font-family: Calibri;
+    color:red;
+    font-size: 3vh;
+}
+.productDescription{
+
+    margin-top: 2%;
+    font-family: Calibri;
+
+    
+
+font-size: 2.5vh;
+margin-left: auto
+}
+.descriptionWrapper{
+    width:100%;
+    border-top: 1.5px solid rgba(128, 128, 128, 0.605);
+margin-bottom: 2%;
+
+}
+.container{
+    margin-top:5%
+}
+.row{
+    margin-top: 2%;
+    font-family: Calibri;
+justify-content: right;
+   
+width:100%;
+font-size: 2.5vh;
+
+}
+
+.degemWrapper{
+ 
+    margin-bottom: 4%;
+ 
+}
+.descriptionHeader{
+    font-size: 4vh;
+    font-family: Calibri;
+    color:rgba(0, 0, 0, 0.666);
+    margin-top:1%;
+    margin-bottom: 2%;
+    text-align: right;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width:60vw;
+    margin-right:3%
+}
+.degem{
+    font-size: 2.5vh;
+    font-family: Calibri;
+    text-align: right;
+}
+.priceWrapper{
+   
+    margin-bottom: 4%;
+    margin-top:3%;
+
+}
+.priceHeader{
+    font-size: 4vh;
+    font-family: Calibri;
+    color:rgba(0, 0, 0, 0.666);
+    margin-top:1%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.price{
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: right;
+    font-family: Calibri;
+}
+.perMeter{
+margin-top: 1%;
+text-align: right;
+}
+.whatsapp{
+    float:left;
+    margin-right:70%;
+}
+.addToCartButton{
+    margin-top:5%;
+ display: flex;
+ justify-content: center;
+ margin-bottom:2%;
+}
+.moreImages{
+    margin-left: 0 auto;
+    margin-top: 3%;
+
+}
+.rightSideColumn{
+    display: flex;
+    flex-direction: column;
+    width:30%
+}
+.sideImagesHeader{
+    margin-top: 5%;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 3vh;   
+     margin-bottom: 2%;
+}
+.relatedProductsHeader{
+font-size: 5vh;
+text-align: center;
+font-family: Calibri;
+border-bottom: 1px solid rgba(141, 136, 136, 0.562);
+margin-top:3%;
+}
+.relatedProductsWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
+margin-top:3%;
+}
+.noRelatedProds{
+    font-size: 3vh;
+text-align: center;
+font-family: Calibri;
+
+margin-top:3%;
+}
+.deletedPrice{
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: right;
+    font-family: Calibri;
+    text-decoration: line-through;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .productHeader{
+        font-size: 7vw;
+    width:80%;
+        text-align: center;
+        font-family: Calibri;
+        padding-bottom: 1%;
+        margin:2% auto
+    }
+    .productImage{
+        width:100%;
+        height:100%;
+    }
+    .productAvailable{
+        text-align: center;
+      
+       margin-top:2%;
+       margin-right:10%;
+        font-family: Calibri; 
+        color:green;
+        font-size: 4vw;
+        width:100%;
+    }
+    .whatsapp{
+     text-align: center;
+     justify-content: center;
+     width:100%;
+     margin-top:4vw;
+     font-size: 4vw;
+    }
+    .productNotAvailable{
+        text-align: center;
+        margin-top: 2%;
+        font-family: Calibri;
+        color:red;
+        font-size: 4vw;
+        width:100%;
+    }
+    .productDescription{
+    
+        margin-top: 2%;
+        font-family: Calibri;
+    
+        
+   text-align: right;
+    font-size: 3.5vw;
+    margin:0 auto
+    }
+    .descriptionWrapper{
+        width:100%;
+      
+    margin-bottom: 2%;
+    
+    }
+    .container{
+        margin-top:5%;
+        
+    }
+    .row{
+      
+        font-family: Calibri;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    width:100%;
+
+    font-size: 3.5vw;
+
+    }
+    .degemWrapper{
+   
+        margin-bottom: 4%;
+     
+    }
+    .descriptionHeader{
+        font-size: 5.5vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: right;
+    
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+
+       
+    }
+    .degem{
+        font-size: 3.5vw;
+        font-family: Calibri;
+        text-align: right;
+    }
+    .priceWrapper{
+  
+        margin-bottom: 4%;
+        margin-top:3%;
+    
+    }
+    .priceHeader{
+        font-size: 5.5vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .price{
+        font-size: 4vw;
+        font-weight: bold;
+        text-align: right;
+        font-family: Calibri;
+    }
+    .perMeter{
+    margin-top: 1%;
+    text-align: right;
+    }
+    .addToCartButton{
+        margin-top:5%;
+     display: flex;
+     justify-content: center;
+     margin-bottom:2%;
+    }
+    .moreImages{
+        margin-left: 0 auto;
+        margin-top: 3%;
+    
+    }
+    .rightSideColumn{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+   
+    }
+    .sideImagesHeader{
+        margin-top: 5%;
+        text-align: center;
+        font-family: Calibri;
+        font-size: 3vw;   
+         margin-bottom: 2%;
+    }
+    .relatedProductsHeader{
+    font-size: 5vw;
+    text-align: center;
+    font-family: Calibri;
+    border-bottom: 1px solid rgba(141, 136, 136, 0.562);
+    margin-top:3%;
+    }
+    .relatedProductsWrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 4%;
+    margin-top:3%;
+    }
+    .noRelatedProds{
+        font-size: 3.5vw;
+    text-align: center;
+    font-family: Calibri;
+    
+    margin-top:3%;
+    }
+    .deletedPrice{
+        font-size: 3.5vw;
+        font-weight: bold;
+        text-align: right;
+        font-family: Calibri;
+        text-decoration: line-through;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .productHeader{
+        font-size: 6vw;
+    width:80%;
+        text-align: center;
+        font-family: Calibri;
+        padding-bottom: 1%;
+        margin:2% auto
+    }
+    .productImage{
+        width:100%;
+        height:100%;
+    }
+    .productAvailable{
+        text-align: center;
+      
+       margin-top:2%;
+       margin-right:10%;
+        font-family: Calibri; 
+        color:green;
+        font-size: 4vw;
+        width:100%;
+    }
+    .whatsapp{
+     text-align: center;
+     justify-content: center;
+     width:100%;
+     margin-top:4vw;
+     font-size: 4vw;
+    }
+    .productNotAvailable{
+        text-align: center;
+        margin-top: 2%;
+        font-family: Calibri;
+        color:red;
+        font-size: 4vw;
+        width:100%;
+    }
+    .productDescription{
+    
+        margin-top: 2%;
+        font-family: Calibri;
+    
+        
+   text-align: right;
+ padding-right: 1%;
+    font-size: 2.5vw;
+    margin:0 auto
+    }
+    .descriptionWrapper{
+        width:100%;
+      
+    margin-bottom: 2%;
+ 
+    }
+    .container{
+        margin-top:5%;
+        
+    }
+    .row{
+      
+        font-family: Calibri;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    width:100%;
+
+    font-size: 2.5vw;
+
+    }
+    .degemWrapper{
+   
+        margin-bottom: 4%;
+     
+    }
+    .descriptionHeader{
+        font-size: 4vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: right;
+    
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+
+       
+    }
+    .degem{
+        font-size: 3vw;
+        font-family: Calibri;
+        text-align: right;
+    }
+    .priceWrapper{
+  
+        margin-bottom: 4%;
+        margin-top:3%;
+    padding-right:1%;
+    }
+    .priceHeader{
+        font-size: 4vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .price{
+        font-size: 3vw;
+        font-weight: bold;
+        text-align: right;
+        font-family: Calibri;
+    }
+    .perMeter{
+    margin-top: 1%;
+    text-align: right;
+    }
+    .addToCartButton{
+        margin-top:5%;
+     display: flex;
+     justify-content: center;
+     margin-bottom:2%;
+    }
+    .moreImages{
+        margin-left: 0 auto;
+        margin-top: 3%;
+    
+    }
+    .rightSideColumn{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        margin:0 auto
+   
+    }
+    .sideImagesHeader{
+        margin-top: 5%;
+        text-align: center;
+        font-family: Calibri;
+        font-size: 3vw;   
+         margin-bottom: 2%;
+    }
+    .relatedProductsHeader{
+    font-size: 4vw;
+    text-align: center;
+    font-family: Calibri;
+    border-bottom: 1px solid rgba(141, 136, 136, 0.562);
+    margin-top:3%;
+    }
+    .relatedProductsWrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 4%;
+    margin-top:3%;
+    }
+    .noRelatedProds{
+        font-size: 3vw;
+    text-align: center;
+    font-family: Calibri;
+    
+    margin-top:3%;
+    }
+    .deletedPrice{
+        font-size: 3vw;
+        font-weight: bold;
+        text-align: right;
+        font-family: Calibri;
+        text-decoration: line-through;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 721px) and (max-width:850px) {
+    .productHeader{
+        font-size: 5vw;
+    width:80%;
+        text-align: center;
+        font-family: Calibri;
+        padding-bottom: 1%;
+        margin:2% auto
+    }
+    .productImage{
+        width:100%;
+        height:100%;
+    }
+    .productAvailable{
+        text-align: center;
+      
+       margin-top:2%;
+       margin-right:10%;
+        font-family: Calibri; 
+        color:green;
+        font-size: 3.5vw;
+        width:100%;
+    }
+    .whatsapp{
+     text-align: center;
+     justify-content: center;
+     width:100%;
+     margin-top:4vw;
+     font-size: 3.5vw;
+    }
+    .productNotAvailable{
+        text-align: center;
+        margin-top: 2%;
+        font-family: Calibri;
+        color:red;
+        font-size: 3.5vw;
+        width:100%;
+    }
+    .productDescription{
+    
+        margin-top: 2%;
+        font-family: Calibri;
+    
+        
+   text-align: right;
+ padding-right: 1%;
+    font-size: 2vw;
+    margin:0 auto
+    }
+    .descriptionWrapper{
+        width:100%;
+      
+    margin-bottom: 2%;
+ 
+    }
+    .container{
+        margin-top:5%;
+        
+    }
+    .row{
+      
+        font-family: Calibri;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    width:100%;
+
+    font-size: 2.5vw;
+
+    }
+    .degemWrapper{
+   
+        margin-bottom: 4%;
+     
+    }
+    .descriptionHeader{
+        font-size: 3.5vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: right;
+    
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+
+       
+    }
+    .degem{
+        font-size: 2.5vw;
+        font-family: Calibri;
+        text-align: right;
+    }
+    .priceWrapper{
+  
+        margin-bottom: 4%;
+        margin-top:3%;
+    padding-right:1%;
+    }
+    .priceHeader{
+        font-size: 3.5vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .price{
+        font-size: 2.5vw;
+        font-weight: bold;
+        text-align: right;
+        font-family: Calibri;
+    }
+    .perMeter{
+    margin-top: 1%;
+    text-align: right;
+    }
+    .addToCartButton{
+        margin-top:5%;
+     display: flex;
+     justify-content: center;
+     margin-bottom:2%;
+    }
+    .moreImages{
+        margin-left: 0 auto;
+        margin-top: 3%;
+    
+    }
+    .rightSideColumn{
+        display: flex;
+        flex-direction: column;
+        width:85%;
+        margin:0 auto
+   
+    }
+    .sideImagesHeader{
+        margin-top: 5%;
+        text-align: center;
+        font-family: Calibri;
+        font-size: 2.5vw;   
+         margin-bottom: 2%;
+    }
+    .relatedProductsHeader{
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: Calibri;
+    border-bottom: 1px solid rgba(141, 136, 136, 0.562);
+    margin-top:3%;
+    }
+    .relatedProductsWrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 4%;
+    margin-top:3%;
+    }
+    .noRelatedProds{
+        font-size: 2.5vw;
+    text-align: center;
+    font-family: Calibri;
+    
+    margin-top:3%;
+    }
+    .deletedPrice{
+        font-size: 2.5vw;
+        font-weight:bold;
+        text-align: right;
+        font-family: Calibri;
+        text-decoration: line-through;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 850px) and (max-width:1020px) {
+    .productHeader{
+        font-size: 4.5vw;
+    width:80%;
+        text-align: center;
+        font-family: Calibri;
+        padding-bottom: 1%;
+        margin:2% auto
+    }
+    .productImage{
+        width:100%;
+        height:100%;
+    }
+    .productAvailable{
+        text-align: center;
+      
+       margin-top:2%;
+       margin-right:10%;
+        font-family: Calibri; 
+        color:green;
+        font-size: 2.5vw;
+        width:100%;
+    }
+    .whatsapp{
+     text-align: center;
+     justify-content: center;
+     width:100%;
+     margin-top:4vw;
+     font-size: 2.5vw;
+    }
+    .productNotAvailable{
+        text-align: center;
+        margin-top: 2%;
+        font-family: Calibri;
+        color:red;
+        font-size: 2.5vw;
+        width:100%;
+    }
+    .productDescription{
+    
+        margin-top: 2%;
+        font-family: Calibri;
+    
+        
+   text-align: right;
+ padding-right: 1%;
+    font-size: 2vw;
+    margin:0 auto
+    }
+    .descriptionWrapper{
+        width:100%;
+      
+    margin-bottom: 2%;
+ 
+    }
+    .container{
+        margin-top:5%;
+        
+    }
+    .row{
+      
+        font-family: Calibri;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    width:100%;
+
+    font-size: 2vw;
+
+    }
+    .degemWrapper{
+   
+        margin-bottom: 4%;
+     
+    }
+    .descriptionHeader{
+        font-size: 3.5vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: right;
+    
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+
+       
+    }
+    .degem{
+        font-size: 2vw;
+        font-family: Calibri;
+        text-align: right;
+    }
+    .priceWrapper{
+  
+        margin-bottom: 4%;
+        margin-top:3%;
+    padding-right:1%;
+    }
+    .priceHeader{
+        font-size: 2.5vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .price{
+        font-size: 2vw;
+        font-weight: bold;
+        text-align: right;
+        font-family: Calibri;
+    }
+    .perMeter{
+    margin-top: 1%;
+    text-align: right;
+    }
+    .addToCartButton{
+        margin-top:5%;
+     display: flex;
+     justify-content: center;
+     margin-bottom:2%;
+    }
+    .moreImages{
+        margin-left: 0 auto;
+        margin-top: 3%;
+    
+    }
+    .rightSideColumn{
+        display: flex;
+        flex-direction: column;
+        width:70%;
+        margin:0 auto
+   
+    }
+    .sideImagesHeader{
+        margin-top: 5%;
+        text-align: center;
+        font-family: Calibri;
+        font-size: 2vw;   
+         margin-bottom: 2%;
+    }
+    .relatedProductsHeader{
+    font-size: 3vw;
+    text-align: center;
+    font-family: Calibri;
+    border-bottom: 1px solid rgba(141, 136, 136, 0.562);
+    margin-top:3%;
+    }
+    .relatedProductsWrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 4%;
+    margin-top:3%;
+    }
+    .noRelatedProds{
+        font-size: 2vw;
+    text-align: center;
+    font-family: Calibri;
+    
+    margin-top:3%;
+    }
+    .deletedPrice{
+        font-size: 2vw;
+        font-weight:bold;
+        text-align: right;
+        font-family: Calibri;
+        text-decoration: line-through;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .productHeader{
+        font-size: 3.5vw;
+    width:80%;
+        text-align: center;
+        font-family: Calibri;
+        padding-bottom: 1%;
+        margin:2% auto
+    }
+    .productImage{
+        width:100%;
+        height:100%;
+    }
+    .productAvailable{
+        text-align: center;
+      
+       margin-top:2%;
+       margin-right:10%;
+        font-family: Calibri; 
+        color:green;
+        font-size: 2vw;
+        width:100%;
+    }
+    .whatsapp{
+     text-align: center;
+     justify-content: center;
+     width:100%;
+     margin-top:4vw;
+     font-size: 2vw;
+    }
+    .productNotAvailable{
+        text-align: center;
+        margin-top: 2%;
+        font-family: Calibri;
+        color:red;
+        font-size: 2w;
+        width:100%;
+    }
+    .productDescription{
+    
+        margin-top: 2%;
+        font-family: Calibri;
+    
+        
+   text-align: right;
+ padding-right: 1%;
+    font-size: 1.5vw;
+    margin:0 auto
+    }
+    .descriptionWrapper{
+        width:100%;
+      
+    margin-bottom: 2%;
+ 
+    }
+    .container{
+        margin-top:5%;
+        
+    }
+    .row{
+      
+        font-family: Calibri;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    width:100%;
+
+    font-size: 1.5vw;
+
+    }
+    .degemWrapper{
+   
+        margin-bottom: 4%;
+     
+    }
+    .descriptionHeader{
+        font-size: 3vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: right;
+    
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+
+       
+    }
+    .degem{
+        font-size: 1.5vw;
+        font-family: Calibri;
+        text-align: right;
+    }
+    .priceWrapper{
+  
+        margin-bottom: 4%;
+        margin-top:3%;
+    padding-right:1%;
+    }
+    .priceHeader{
+        font-size: 2vw;
+        font-family: Calibri;
+        color:rgba(0, 0, 0, 0.666);
+        margin-top:1%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .price{
+        font-size: 2vw;
+        font-weight: bold;
+        text-align: right;
+        font-family: Calibri;
+    }
+    .perMeter{
+    margin-top: 1%;
+    text-align: right;
+    }
+    .addToCartButton{
+        margin-top:5%;
+     display: flex;
+     justify-content: center;
+     margin-bottom:2%;
+    }
+    .moreImages{
+        margin-left: 0 auto;
+        margin-top: 3%;
+    
+    }
+    .rightSideColumn{
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        margin:0 auto
+   
+    }
+    .sideImagesHeader{
+        margin-top: 5%;
+        text-align: center;
+        font-family: Calibri;
+        font-size: 1.5vw;   
+         margin-bottom: 2%;
+    }
+    .relatedProductsHeader{
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: Calibri;
+    border-bottom: 1px solid rgba(141, 136, 136, 0.562);
+    margin-top:3%;
+    }
+    .relatedProductsWrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 4%;
+    margin-top:3%;
+    }
+    .noRelatedProds{
+        font-size: 1.5vw;
+    text-align: center;
+    font-family: Calibri;
+    
+    margin-top:3%;
+    }
+    .deletedPrice{
+        font-size: 1.5vw;
+        font-weight:bold;
+        text-align: right;
+        font-family: Calibri;
+        text-decoration: line-through;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+
+}

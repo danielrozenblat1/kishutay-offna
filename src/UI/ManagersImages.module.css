@@ -1,0 +1,33 @@
+
+.header{
+    font-size: 5vh;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+margin-left: auto;
+margin-right:3%;
+margin-top:2%;
+    display: flex;
+}
+.image{
+
+    margin-left:1%;
+    border-radius: 4vh;
+    height:45vh;
+    width:30vw;
+    object-fit: fill;
+}
+.section{
+margin-left:auto;
+margin-top:2%;
+margin-right:3%;
+width:35vw;
+height:20vh;
+font-size: 3.5vh;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: lighter;
+color:antiquewhite
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}

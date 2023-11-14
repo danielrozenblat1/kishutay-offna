@@ -1,0 +1,41 @@
+.container{
+height: 38vh;
+width:30vw;
+    border:0.4px solid black;
+    border-radius: 5%;
+    text-align: center;
+    margin:0 auto;
+    margin-top:2%;
+    background-color: rgba(252, 214, 167, 0.852);
+}
+.header{
+    font-family: serif;
+    font-weight: lighter;
+font-size: 3.5vh;
+margin-top:2%;
+margin-bottom: 2%;
+color:#353736;
+}
+.labels{
+    font-size: 2.5vh;
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top:2%;
+margin-bottom: 2%;
+}
+.inputs{
+    padding:1vh 1vh;
+    border-radius: 1vh;
+    margin-top:2%;
+    margin-bottom: 2%;
+    
+}
+.submit{
+    padding:1vh 1vh;
+    border-radius: 1vh;
+    margin-top:2%;
+    margin-bottom: 2%;
+    background-color: bisque;
+    cursor: pointer;
+}

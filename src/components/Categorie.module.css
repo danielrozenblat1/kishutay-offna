@@ -1,0 +1,202 @@
+.container{
+    height:18vw;
+    width:35vw;
+    margin:2% 6% 2% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+
+}
+.buttonCatName {
+        position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 1vw 3vw;
+    background-color: #0101019f;
+    color: rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+  }
+  .buttonCatName:hover {
+    color:  #000000c6;
+    background-color:rgba(255, 231, 134, 0.53);
+        transform: translate(-50%) scale(1.1); 
+    transition: all ease-out 1s;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+  
+  }
+.image{
+    border: 1px solid #0e0d0d;
+    width: 40vw; 
+    object-fit: fill;
+    height: 100%; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.425);
+}
+.header{
+    font-family:  Calibri ;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2vw;
+    text-align: center;
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .container{
+        height:35vw;
+        width:95%;
+
+        margin:0 auto;
+     text-align: center;
+    }
+    .buttonCatName {
+        position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 1vw 4vw;
+    background-color: #0101019f;
+    color: rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+  }
+    .image{
+        border: 1px solid #0e0d0d;
+        width: 95%; 
+        object-fit: fill;
+        height: 90%; 
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.425);
+        
+    }
+    .header{
+        font-family:  Calibri ;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .container{
+        height:35vw;
+        width:95%;
+
+        margin:3vw auto;
+     text-align: center;
+    }
+    .image{
+        border: 1px solid #0e0d0d;
+        width: 95%; 
+        object-fit: fill;
+        height: 100%; 
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.425);
+    }
+    .header{
+        font-family:  Calibri ;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    .buttonCatName {
+        position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 1vw 3vw;
+    background-color: #0101019f;
+    color: rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 721px) and (max-width:850px) {
+    .container{
+        height:38vw;
+        width:95%;
+
+        margin:0 auto;
+     text-align: center;
+    }
+    .buttonCatName {
+        position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 1vw 4vw;
+    background-color: #0101019f;
+    color: rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.25vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+  }
+    .image{
+        border: 1px solid #0e0d0d;
+        width: 95%; 
+        object-fit: fill;
+        height: 85%; 
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.425);
+        
+    }
+    .header{
+        font-family:  Calibri ;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 850px) and (max-width:1020px) {
+    .buttonCatName {
+        position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 1vw 3vw;
+    background-color: #0101019f;
+    color: rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .buttonCatName {
+        position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 1vw 3vw;
+    background-color: #0101019f;
+    color: rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,739 @@
+.columns{
+    border-left: 1px black solid;
+width:5vh;
+
+  padding-left:4%;
+  padding-right:4%;
+  text-align: center;
+}
+th,
+td {
+  border-bottom: 1px solid #00524a;
+padding:0.2vw;
+  text-align: center;
+}
+.productImage{
+    object-fit: cover;
+    height:30%;
+    width:30%;
+}
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+margin-bottom: 5%;
+  }
+  
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .table th {
+    background-color: #8af3b6b9;
+  }
+  
+  .columnsWidther{
+    border-left: 1px black solid;
+width:8vh;
+
+  padding-left:3%;
+  padding-right:3%;
+  text-align: center;
+  }
+  
+
+  .productCounter{
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  .header{
+    font-size: 5vh;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+    margin-top:3%;
+    font-weight: lighter;
+  }
+  .center{
+    font-size: 3vh;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+    margin-top:3%;
+    font-weight: lighter;
+  }
+  .summary{
+    margin-top:1%;
+
+ width:70%;
+text-align: center;
+  }
+  .borderTop{
+
+    border-top:3px dashed #00524a;
+    width:70%;
+
+
+justify-content: center;
+    align-items: center;
+    align-self: center;
+margin:auto;
+  }
+  .summary{
+    font-size: 5vh;
+    text-align: center;
+    color:#002522;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .totalMeters{
+    font-size: 3vh;
+    text-align: center;
+    color:#05897e;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .totalPrice{
+    font-size: 3vh;
+    text-align: center;
+    color:#05897e;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .ToPayment{
+    margin-top:4%;
+    background-color: #8af3b6b9;
+    border:none;
+  padding:3vh 5vh;
+  border-radius: 3vh;
+  font-size: 2.5vh;
+  font-family:  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+font-weight: lighter;
+position:relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+cursor: pointer;
+  }
+  .littleSpace{
+    padding-right:8%;
+    cursor: pointer;
+
+  }
+  @media only screen and (min-width: 415px) and (max-width: 720px) {
+    .columns{
+      border-left: 1px black solid;
+  
+  
+    padding-left:2.5vw;
+    padding-right:2.5vw;
+    text-align: center;
+  }
+  .columnsWidther{
+    border-left: 1px black solid;
+  
+  
+  padding-left:4vw;
+  padding-right:4vw;
+  text-align: center;
+  }
+  th,
+  td {
+    border-bottom: 1px solid #00524a;
+  font-size:2.4vw;
+    text-align: center;
+    padding-left:2vw;
+    padding-right:2vw;
+  
+  }
+  .productImage{
+      object-fit: cover;
+  
+      height:70%;
+      width:70%;
+      margin:auto auto
+  
+  }
+  .table {
+      width: 90%;
+      border-collapse: collapse;
+      border: 1px solid #ddd;
+  
+  margin-bottom: 5%;
+    }
+    
+  
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .table th {
+      background-color: #8af3b6b9;
+    }
+    
+  
+    
+  
+    .productCounter{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    }
+    .header{
+      font-size: 5vw;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+  margin-bottom: 3%;
+      margin-top:3%;
+      font-weight: lighter;
+    }
+    .center{
+      font-size: 3.5vw;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+  margin-bottom: 3%;
+      margin-top:3%;
+      font-weight: lighter;
+    }
+    .summary{
+      margin-top:1%;
+  
+   width:80%;
+  text-align: center;
+    }
+    .borderTop{
+  
+      border-top:3px dashed #00524a;
+      width:70%;
+  
+  
+  justify-content: center;
+      align-items: center;
+      align-self: center;
+  margin:auto;
+    }
+    .summary{
+      font-size: 5vw;
+      text-align: center;
+      color:#002522;
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+  margin-bottom: 5%;
+  
+      font-weight: lighter;
+      margin:auto;
+      margin-top:2%
+    }
+    .totalMeters{
+      font-size: 3.5vw;
+      text-align: center;
+      color:#05897e;
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+  margin-bottom: 3%;
+  
+      font-weight: lighter;
+      margin:auto;
+      margin-top:2%
+    }
+    .totalPrice{
+      font-size: 3.5vw;
+      text-align: center;
+      color:#05897e;
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+  margin-bottom: 3%;
+  
+      font-weight: lighter;
+      margin:auto;
+      margin-top:2%
+    }
+    .ToPayment{
+      margin-top:4%;
+      background-color: #8af3b6b9;
+      border:none;
+    padding:3vw 5vw;
+    border-radius: 3vw;
+    font-size: 2.5vw;
+    font-family:  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  position:relative;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  cursor: pointer;
+    }
+    .littleSpace{
+      padding-right:8%;
+      cursor: pointer;
+  
+    }
+ }
+ @media only screen and (min-width: 220px) and (max-width:415px) {
+  .columns{
+    border-left: 1px black solid;
+
+
+  padding-left:2vw;
+  padding-right:2vw;
+  text-align: center;
+}
+.columnsWidther{
+  border-left: 1px black solid;
+
+
+padding-left:4vw;
+padding-right:4vw;
+text-align: center;
+}
+th,
+td {
+  border-bottom: 1px solid #00524a;
+font-size:2.8vw;
+  text-align: center;
+  padding-left:2vw;
+  padding-right:2vw;
+
+}
+.productImage{
+    object-fit: cover;
+
+    height:60%;
+    width:60%;
+    margin:auto auto
+
+}
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+margin-bottom: 5%;
+  }
+  
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .table th {
+    background-color: #8af3b6b9;
+  }
+  
+
+  
+
+  .productCounter{
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  .header{
+    font-size: 7vw;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+    margin-top:3%;
+    font-weight: lighter;
+  }
+  .center{
+    font-size: 5vw;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+    margin-top:3%;
+    font-weight: lighter;
+  }
+  .summary{
+    margin-top:1%;
+
+ width:80%;
+text-align: center;
+  }
+  .borderTop{
+
+    border-top:3px dashed #00524a;
+    width:70%;
+
+
+justify-content: center;
+    align-items: center;
+    align-self: center;
+margin:auto;
+  }
+  .summary{
+    font-size: 8vw;
+    text-align: center;
+    color:#002522;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 5%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .totalMeters{
+    font-size: 5vw;
+    text-align: center;
+    color:#05897e;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .totalPrice{
+    font-size: 5vw;
+    text-align: center;
+    color:#05897e;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .ToPayment{
+    margin-top:4%;
+    background-color: #8af3b6b9;
+    border:none;
+  padding:3vw 5vw;
+  border-radius: 3vw;
+  font-size: 3.5vw;
+  font-family:  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+font-weight: lighter;
+position:relative;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -0%);
+cursor: pointer;
+  }
+  .littleSpace{
+    padding-right:8%;
+    cursor: pointer;
+
+  }
+ }
+ @media only screen and (min-width: 720px) and (max-width:850px) {
+  .columns{
+    border-left: 1px black solid;
+
+
+  padding-left:2.5vw;
+  padding-right:2.5vw;
+  text-align: center;
+}
+.columnsWidther{
+  border-left: 1px black solid;
+
+
+padding-left:4vw;
+padding-right:4vw;
+text-align: center;
+}
+th,
+td {
+  border-bottom: 1px solid #00524a;
+font-size:2vw;
+  text-align: center;
+  padding-left:2vw;
+  padding-right:2vw;
+
+}
+.productImage{
+    object-fit: cover;
+
+    height:70%;
+    width:70%;
+    margin:auto auto
+
+}
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+margin-bottom: 5%;
+  }
+  
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .table th {
+    background-color: #8af3b6b9;
+  }
+  
+
+  
+
+  .productCounter{
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  .header{
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+    margin-top:3%;
+    font-weight: lighter;
+  }
+  .center{
+    font-size: 3vw;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+    margin-top:3%;
+    font-weight: lighter;
+  }
+  .summary{
+    margin-top:1%;
+
+ width:80%;
+text-align: center;
+  }
+  .borderTop{
+
+    border-top:3px dashed #00524a;
+    width:70%;
+
+
+justify-content: center;
+    align-items: center;
+    align-self: center;
+margin:auto;
+  }
+  .summary{
+    font-size: 3.5vw;
+    text-align: center;
+    color:#002522;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 5%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .totalMeters{
+    font-size: 2.5vw;
+    text-align: center;
+    color:#05897e;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .totalPrice{
+    font-size: 2.5vw;
+    text-align: center;
+    color:#05897e;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .ToPayment{
+    margin-top:4%;
+    background-color: #8af3b6b9;
+    border:none;
+  padding:3vw 5vw;
+  border-radius: 3vw;
+  font-size: 2vw;
+  font-family:  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+font-weight: lighter;
+position:relative;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -0%);
+cursor: pointer;
+  }
+  .littleSpace{
+    padding-right:8%;
+    cursor: pointer;
+
+  }
+ }
+ @media only screen and (min-width: 850px) and (max-width:1020px) {
+  .columns{
+    border-left: 1px black solid;
+
+
+  padding-left:2.5vw;
+  padding-right:2.5vw;
+  text-align: center;
+}
+.columnsWidther{
+  border-left: 1px black solid;
+
+
+padding-left:4vw;
+padding-right:4vw;
+text-align: center;
+}
+th,
+td {
+  border-bottom: 1px solid #00524a;
+font-size:2vw;
+  text-align: center;
+  padding-left:2vw;
+  padding-right:2vw;
+
+}
+.productImage{
+    object-fit: cover;
+
+    height:70%;
+    width:70%;
+    margin:auto auto
+
+}
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+margin-bottom: 5%;
+  }
+  
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .table th {
+    background-color: #8af3b6b9;
+  }
+  
+
+  
+
+  .productCounter{
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  .header{
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+    margin-top:3%;
+    font-weight: lighter;
+  }
+  .center{
+    font-size: 3vw;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+    margin-top:3%;
+    font-weight: lighter;
+  }
+  .summary{
+    margin-top:1%;
+
+ width:80%;
+text-align: center;
+  }
+  .borderTop{
+
+    border-top:3px dashed #00524a;
+    width:70%;
+
+
+justify-content: center;
+    align-items: center;
+    align-self: center;
+margin:auto;
+  }
+  .summary{
+    font-size: 3.5vw;
+    text-align: center;
+    color:#002522;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 5%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .totalMeters{
+    font-size: 2.5vw;
+    text-align: center;
+    color:#05897e;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .totalPrice{
+    font-size: 2.5vw;
+    text-align: center;
+    color:#05897e;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+margin-bottom: 3%;
+
+    font-weight: lighter;
+    margin:auto;
+    margin-top:2%
+  }
+  .ToPayment{
+    margin-top:4%;
+    background-color: #8af3b6b9;
+    border:none;
+  padding:3vw 5vw;
+  border-radius: 3vw;
+  font-size: 2vw;
+  font-family:  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+font-weight: lighter;
+position:relative;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -0%);
+cursor: pointer;
+  }
+  .littleSpace{
+    padding-right:8%;
+    cursor: pointer;
+
+  }
+ }
+ @media only screen and (min-width: 1020px) and (max-width:1300px) {
+   
+ }

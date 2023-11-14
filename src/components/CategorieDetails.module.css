@@ -1,0 +1,203 @@
+.container{
+    margin:1%
+   
+   }
+.header{
+    font-size: 3.5vw;
+    font-family:cursive;
+/* border-bottom:  1px solid rgb(89, 81, 99); */
+text-align: center;
+color:#353736;
+}
+.noProducts{
+    font-size: 1.25vw;
+}
+.subCat{
+    font-size: 4.5vw;
+    font-family:cursive;
+margin-top: 3%;
+text-align: center;
+}
+.subCatContainer{
+    margin-top: 2%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+margin-bottom: 4%;
+}
+.products{
+    margin-top: 3%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+flex-wrap: wrap;
+  width:calc(25%-2%)
+}
+
+
+
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .container{
+        margin:4%
+       
+       }
+       .header{
+           font-size: 6.5vw;
+           font-family:cursive;
+       /* border-bottom:  1px solid rgb(89, 81, 99); */
+       text-align: center;
+       color:#353736;
+       }
+      
+        .subCatContainer{
+            margin-top: 2%;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+             margin-bottom: 4%;
+        }
+        .products{
+     
+            display:flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width:calc(40%-5%);
+            margin-top:5%
+        }
+        .noProducts{
+            font-size: 2.95vw;
+        }
+  }
+  @media only screen and (min-width: 220px) and (max-width:415px) {
+    
+.container{
+    margin:4%
+   
+   }
+   .noProducts{
+    font-size: 3.75vw;
+}
+   .header{
+       font-size: 6.5vw;
+       font-family:cursive;
+   /* border-bottom:  1px solid rgb(89, 81, 99); */
+   text-align: center;
+   color:#353736;
+   }
+  
+    .subCatContainer{
+        margin-top: 2%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+         margin-bottom: 4%;
+    }
+    .products{
+        margin-top: 3%;
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:calc(40%-5%);
+        margin-top:5%;
+    }
+  }
+  @media only screen and (min-width: 721px) and (max-width:850px) {
+    .container{
+        margin:4%
+       
+       }
+       .header{
+           font-size: 6.5vw;
+           font-family:cursive;
+       /* border-bottom:  1px solid rgb(89, 81, 99); */
+       text-align: center;
+       color:#353736;
+       }
+      
+        .subCatContainer{
+            margin-top: 2%;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+             margin-bottom: 4%;
+        }
+        .noProducts{
+            font-size: 2.2vw;
+        }
+        .products{
+            margin-top: 3%;
+            display:flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width:calc(50%-5%);
+            margin-top:3%
+        }
+  }
+  @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .container{
+        margin:4%
+       
+       }
+       .noProducts{
+        font-size: 2vw;
+    }
+       .header{
+           font-size: 6.5vw;
+           font-family:cursive;
+       /* border-bottom:  1px solid rgb(89, 81, 99); */
+       text-align: center;
+       color:#353736;
+       }
+      
+        .subCatContainer{
+            margin-top: 2%;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+             margin-bottom: 4%;
+        }
+        .products{
+            margin-top: 3%;
+            display:flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width:calc(50%-5%)
+        }
+  }
+  @media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .container{
+        margin:4%
+       
+       }
+       .header{
+           font-size: 6.5vw;
+           font-family:cursive;
+       /* border-bottom:  1px solid rgb(89, 81, 99); */
+       text-align: center;
+       color:#353736;
+       }
+       .noProducts{
+        font-size: 1.8vw;
+    }
+      
+        .subCatContainer{
+            margin-top: 2%;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+             margin-bottom: 4%;
+        }
+        .products{
+            margin-top: 3%;
+            display:flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width:calc(50%-5%)
+        }
+  }

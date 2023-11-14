@@ -1,0 +1,184 @@
+.container{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 auto;
+   
+}
+.center{
+    width:15%;
+
+}
+.centered{
+    width:100%;
+    text-align: center;
+}
+.directionImage{
+    height: 20vw;
+    width:20vw;
+
+}
+.footPrints{
+    height: 20vw;
+    width:20vw;
+}
+.car{
+    height: 20vw;
+    width:20vw;
+}
+
+
+@media only screen and (min-width: 220px) and (max-width:415px) {
+    .container{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        margin:0 auto;
+       
+    }
+    .center{
+        width:30%;
+    
+    }
+    .centered{
+        width:100%;
+        text-align: center;
+    }
+    .directionImage{
+        height: 20vw;
+        width:20vw;
+    
+    }
+    .footPrints{
+        height: 20vw;
+        width:20vw;
+    }
+    .car{
+        height: 20vw;
+        width:20vw;
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+    .container{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        margin:0 auto;
+       
+    }
+    .center{
+        width:30%;
+    
+    }
+    .centered{
+        width:100%;
+        text-align: center;
+    }
+    .directionImage{
+        height: 20vw;
+        width:20vw;
+    
+    }
+    .footPrints{
+        height: 20vw;
+        width:20vw;
+    }
+    .car{
+        height: 20vw;
+        width:20vw;
+    }
+  }
+
+  @media only screen and (min-width: 720px) and (max-width:850px) {
+    .container{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        margin:0 auto;
+       
+    }
+    .center{
+        width:30%;
+    
+    }
+    .centered{
+        width:100%;
+        text-align: center;
+    }
+    .directionImage{
+        height: 20vw;
+        width:20vw;
+    
+    }
+    .footPrints{
+        height: 20vw;
+        width:20vw;
+    }
+    .car{
+        height: 20vw;
+        width:20vw;
+    }
+  }
+  @media only screen and (min-width: 850px) and (max-width:1020px) {
+    .container{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        margin:0 auto;
+       
+    }
+    .center{
+        width:30%;
+    
+    }
+    .centered{
+        width:100%;
+        text-align: center;
+    }
+    .directionImage{
+        height: 20vw;
+        width:20vw;
+    
+    }
+    .footPrints{
+        height: 20vw;
+        width:20vw;
+    }
+    .car{
+        height: 20vw;
+        width:20vw;
+    }
+  }
+  @media only screen and (min-width: 1020px) and (max-width:1300px) {
+    .container{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        margin:0 auto;
+       
+    }
+    .center{
+        width:30%;
+    
+    }
+    .centered{
+        width:100%;
+        text-align: center;
+    }
+    .directionImage{
+        height: 20vw;
+        width:20vw;
+    
+    }
+    .footPrints{
+        height: 20vw;
+        width:20vw;
+    }
+
+  }
